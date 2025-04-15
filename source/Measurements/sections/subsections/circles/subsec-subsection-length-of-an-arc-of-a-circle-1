@@ -42,6 +42,84 @@
       \end{tikzpicture}
     </latex-image>
     </image>
+   <activity>
+      <ul>
+        <li>
+          <p>
+          What you require: Circular cut out of a known diameter , a pair of scissors or razor blade, a ruler and a piece of string.
+        </p>
+        </li>
+      </ul> 
+      <li>
+          <p>
+            Calculate the circumference of the cut out by measuring the crcular edge using a string.
+        </p>
+        </li>
+        <li>
+          <p>
+            Use a ruler to measure the length of the string.
+        </p>
+        </li>
+        <li>
+          <p>
+            Cut the cutout into two equal parts along the diameter. This enables you obtain two equal objects called a <m>\textbf { Semi-circle.}</m>
+        </p>
+        </li>
+        <li>
+          <p>
+            Measure the curved length of one semi-circle using a string. Use a ruler to measure the length of the string.
+        </p>
+        </li>
+        <li>
+          <p>
+          Measure the angle of the at the centre O  of the semicircle. Express the angle as a fraction of <m>360 ^\circ</m>.
+        </p>
+        </li>
+        <li>
+          <p>
+          Compare the answer you got in step 3 and the answer you got in step 4. What do you notice?
+        </p>
+        </li>
+        <li>
+          <p>
+          Discuss how to calculate the length of the arc of the semi-circle. 
+        </p>
+        </li>
+        <p>A semi-circle is a sector of a circle. Where the term sector is derived from the word section.</p>
+        <hint><p>Arc length of a semi-circle is given by  <m> \frac {180^ \circ} {360^ \circ} \times \pi \text { d or}  \frac {180^ \circ} {360^ \circ} \times 2 \pi r = \frac {1}{2} \pi \text{ d or } \frac {1}{2}(2 \pi r)</m></p></hint>
+
+        <image>
+          <latex-image label="semi-circle-1-activity">
+             \begin{tikzpicture}
+                % Draw semicircle
+                \filldraw[fill=cyan!30, draw=black] (0,0) arc[start angle=0, end angle=180, radius=7] -- cycle;
+              
+                % Label the diameter
+                \draw[|-|] (-7,0) -- (7,0);
+                \node at (0,-0.5) {14 cm};
+            \end{tikzpicture}    
+          </latex-image>
+        </image>
+        <image>
+          <latex-image label="quarter-circle-2-activity">
+             \begin{tikzpicture}
+                % Draw quarter circle
+                \filldraw[fill=green!30, draw=black] (0,0) -- (10,0) arc[start angle=0, end angle=90, radius=10] -- cycle;
+              
+                % Label the sides
+                \draw[|-|] (0,0) -- (10,0);
+                \node at (5,-0.5) {10 cm};
+              
+                \draw[|-|] (0,0) -- (0,10);
+                \node at (-1,5) {10 cm};
+              
+                % Right angle marker
+                \draw (0,0) -- (0.8,0) -- (0.8,0.8) -- (0,0.8) -- cycle;
+            \end{tikzpicture}    
+          </latex-image>
+        </image>
+      </activity>
+
     <p>
       example quarter
     </p>
@@ -68,37 +146,37 @@
     </ul> 
     <li>
         <p>
-          Calculate the circumference of the cut out by measuring the crcular edge using a string.
+         1. Calculate the circumference of the cut out by measuring the crcular edge using a string.
        </p>
       </li>
       <li>
         <p>
-          Use a ruler to measure the length of the string.
+         2. Use a ruler to measure the length of the string.
        </p>
       </li>
       <li>
         <p>
-          Cut the cutout into two equal parts along the diameter. This enables you obtain two equal objects called a <m>\textbf { Semi-circle.}</m>
+         3. Cut the cutout into two equal parts along the diameter. This enables you obtain two equal objects called a <m>\textbf { Semi-circle.}</m>
        </p>
       </li>
       <li>
         <p>
-          Measure the curved length of one semi-circle using a string. Use a ruler to measure the length of the string.
+          4. Measure the curved length of one semi-circle using a string. Use a ruler to measure the length of the string.
        </p>
       </li>
       <li>
         <p>
-         Measure the angle of the at the centre O  of the semicircle. Express the angle as a fraction of <m>360 ^\circ</m>.
+         5. Measure the angle of the at the centre O  of the semicircle. Express the angle as a fraction of <m>360 ^\circ</m>.
        </p>
       </li>
       <li>
         <p>
-         Compare the answer you got in step 3 and the answer you got in step 4. What do you notice?
+         6. Compare the answer you got in step 3 and the answer you got in step 4. What do you notice?
        </p>
       </li>
       <li>
         <p>
-         Discuss how to calculate the length of the arc of the semi-circle. 
+        7. Discuss how to calculate the length of the arc of the semi-circle. 
        </p>
       </li>
       <p>A semi-circle is a sector of a circle. Where the term sector is derived from the word section.</p>
@@ -138,11 +216,11 @@
           <image>
            <latex-image label = "quarter-circle-1">
             \begin{tikzpicture}
-              \fill[white] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
-        % Draw the radius and label it 'r'
-        \draw[thick, -&gt;] (0,0) -- (-2,0) node[midway, above] {\large $Radius$};
-        % Draw the center point
-        \fill (0,0) circle (2pt);
+              \fill[pink] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
+              % Draw the radius and label it 'r'
+              \draw[thick, -&gt;] (0,0) -- (-2,0) node[midway, above] {\large $35 cm$};
+              % Draw the center point
+              \fill (0,0) circle (2pt);
               \node at (1.5,0.5){\textbf{(b)}};
             \end{tikzpicture}
            </latex-image>

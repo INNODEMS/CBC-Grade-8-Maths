@@ -3,8 +3,199 @@
 <subsection xml:id="subsec-perimeter-of-a-sector-of-a-circle-2">
   <title>Perimeter of a sector of a circle 2</title>
 
-  <p>
-    paragraph
-  </p>
+  <activity>
+    <statement>
+      <sidebyside>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <m>\textbf{Materials Needed:}</m> A4 or colored paper (1 per student), Circular paper or printed circles (like “pizza templates”), Protractors, Rulers, Scissors, String or flexible measuring tape, Calculators and Worksheet or recording sheet
+            </p>
+          </li>
+          <li>
+              <p>
+                Imagine you’ve just cut a slice of pizza from a giant round one. You want to wrap a ribbon around the slice—how long would it need to be?
+              </p>
+            </li> 
+          </ul>
+        </p>
+        <image source="/paper-fan.png">
+          <shortdescription></shortdescription>
+         </image>
+      </sidebyside>
+        <p>  
+          <ul>
+              
+            <li>
+              <p>
+                1. Create a Fan Design
+              </p>
+
+            <p>  
+          (a)  Use a compass to draw a circle with radius 10 cm.
+          </p>
+          <p>
+           (b) Use a protractor to choose any central angle between 45° and 180°.
+          </p>
+          <p>
+            (c) Cut out the sector to form a paper fan.
+          </p>
+          <p>
+           (d) Label the angle and radius.
+            </p>
+            <p>
+              2. Decorate It
+            </p>
+            <p>
+              (a) Use colored pencils or markers to decorate the fan.
+            </p>
+            <p>
+              (b) Patterns, lines, colors
+            </p>
+            <p>
+              (c) Use symbols like sun rays, flowers, etc. to make it visually appealing.
+            </p>
+            <p>
+              3. Measure the Arc Length and record it.
+            </p>
+            <p>
+              4.  Calculate the Arc Length using the formula and compare your answer with the actual measurement.
+              <md>
+                <mrow> \text{Arc length} = \amp \frac{\theta}{360} \times 2 \pi r</mrow>
+              </md>
+              <p>
+                Where <m>\theta</m> is the angle in degrees and <m>r</m> is the radius.
+              </p>
+            </p>
+            <p>
+              5. Calculate the Perimeter of the Sector by Adding the arc length and the two radii.
+              <md>
+                <mrow> \text{Perimeter} = \amp \text{Arc Length } + 2 r</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+               Math Gallery Walk
+            </p>
+            <p>
+              (a) Display your fan designs by pinning up the decorated fans around the classroom.
+            </p>
+            <p>
+              (b) Each one includes:
+              <ul>
+                <li>
+                  <p>
+                    Radius
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Central angle (θ)
+                  </p>
+                 
+                </li>
+                <li>
+                  <p>
+                    Arc length
+                  </p>
+                </li><li>
+                  <p>
+                    Perimeter
+                  </p>
+                </li>
+
+
+              </ul>
+              Let others walk around and compare the math and designs.
+            </p>
+          </li>
+
+        </ul>
+      </p>
+      
+    <p>
+      <m>\textbf{Study Questions}</m>
+    </p>
+    <ol>
+      <li>
+        <p>
+          What happens to the arc length when you increase the angle?
+        </p>
+      </li>
+      <li>
+        <p>
+          How do larger radii affect the total perimeter?
+        </p>
+      </li>
+      <li>
+        <p>
+          Which fan would take the most material to make in real life?
+        </p>
+      </li>
+    </ol>
+    </statement>
+  </activity>
+  <example>
+    <statement>
+      <p>
+        Work out the perimeter of the figure below.
+      </p>
+      <image>
+        <latex-image>
+        \begin{tikzpicture}[scale=0.15]
+        
+          % Outer and inner radii
+          \def\R{14}
+          \def\r{7}
+        
+          % Fill the ring-shaped semicircle
+          \fill[cyan!50!] (0,0) arc(180:0:\R) -- (\R,0)
+            arc(0:180:\r) -- cycle;
+        
+          % Outline
+          <!-- \draw[thick] (0,0) arc(180:0:\R); -->
+          <!-- \draw[thick] (\R,0) arc(0:180:\r); -->
+          <!-- \draw[thick] (0,0)  (\R*2,0); -->
+        
+          % Labels
+          \node at (4,2) {\small $14$ cm};
+          \node at (21,2.2) {\small $14$ cm};
+          \node at (7,-3) {\footnotesize (Use $\pi = \dfrac{22}{7}$)};
+        \end{tikzpicture}
+         </latex-image> 
+        </image>
+    </statement>
+    <solution>
+      <statement>
+        <p>
+          Inner semicircle arc:
+          <md>
+            <mrow> = \amp\frac{1}{2} \times 2 \pi\ r </mrow>
+            <mrow> = \amp \pi\ r </mrow>
+            <mrow> = \amp\frac{22}{7} \times 14\,\text{cm}</mrow>
+            <mrow> = \amp\ 44 \,\text{cm} </mrow>
+          </md>
+          Outer semicircle arc:
+          <md>
+            <mrow> = \amp\frac{1}{2} \times 2 \pi\ r </mrow>
+            <mrow> = \amp \pi\ r </mrow>
+            <mrow> = \amp\frac{22}{7} \times 28\,\text{cm}</mrow>
+            <mrow> = \amp\ 88 \,\text{cm} </mrow>
+
+          </md>
+          Straight diameter line :
+          <md>
+            <mrow> =\amp 14 \,\text{cm} </mrow>
+            <mrow>=\amp 88 \,\text{cm} + 14 \,\text{cm} + 44 \,\text{cm}</mrow>
+            <mrow>=\amp 146\,\text{cm}</mrow>
+          </md>
+
+        </p>
+      </statement>
+    </solution>
+    </example>
+
 
 </subsection>

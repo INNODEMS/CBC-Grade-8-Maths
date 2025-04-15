@@ -3,7 +3,7 @@
  <subsection xml:id="subsec-perimeter-of-a-sector-of-a-circle-1">
     <title>Perimeter of a sector of a circle 1</title>
     <p>
-      A.
+      
     </p>
     
     <activity>
@@ -38,14 +38,74 @@
           <p>
            Discuss and compare the resukts with other groups.
           </p>
+          <p>
+             Calculating the full perimeter of the sector:
+            <md>
+              <mrow>\text{Perimeter} = \amp \text{Arc Length } + 2 r</mrow>
+            </md>
+          </p>
         </li>
       </ul>
      </p>
                 <p>The perimeter of a sector is the sum of it's arc length and the two radii.</p>
     </activity>
-    <example>
-    <p>An arc of a sector of radius <m>28 \text { cm}</m></p> subtends an angle of <m>72 ^\circ</m> at the centre . Find the perimeter of the sector.
-    <statement>
+    <example> 
+      <statement>
+    <p>An arc of a sector of radius <m>28 \text { cm} </m> subtends an angle of <m>72 ^\circ</m> 
+    at the centre . Find the perimeter of the sector.</p> 
+      <image width="50%">
+      <latex-image label="circle-example-sector-1">
+        \begin{tikzpicture}
+          % Parameters
+          \def\radius{28}
+          \def\angle{72}
+        
+          % Sector Fill
+          \fill[orange!30] (0,0) -- (\angle:\radius) arc (\angle:0:\radius) -- cycle;
+        
+          % Arc outline
+          \draw[thick] (0:\radius) arc (0:\angle:\radius);
+        
+          % Radius lines
+          \draw[thick] (0,0) -- (0:\radius);
+          \draw[thick] (0,0) -- (\angle:\radius);
+        
+          % Labels
+          \draw[-&gt;] (12,0.5) -- (14,0.5);
+          \node at (15,0.5) {\small $r = 28$ cm};
+        
+          \node at (10,3) {\small $\theta = 72^\circ$};
+          \node at (22,6.5) {\small Arc};
+        
+          % Center dot
+          \filldraw[black] (0,0) circle (4pt);
+        \end{tikzpicture}
+      </latex-image>
+      </image>
     </statement>
+    <solution>
+      <statement>
+        <p>
+          Step 1: Find the arc length
+           <md>
+             <mrow>\text{Arc Length} =\amp \frac{\theta}{360} \times 2 \pi r</mrow>
+             <mrow> = \amp \frac{72}{360} \times 2 \pi \times 28\text{cm}</mrow>
+             <mrow> = \amp \frac{1}{5} \times 2 \times \frac{22}{7} \times 28 \text{cm}</mrow>
+             <mrow> = \amp \frac{56 \times 22}{35}</mrow>
+             <mrow> = \amp 35.19 \text{cm}</mrow>
+           </md>
+           Step 2: Add the radii
+           <md>
+            
+            <mrow> \text{Perimeter} =\amp \text{Arc Length} + 2\, r </mrow>
+            <mrow> = \amp 35.19 \text{cm} + 2 \times 28\, \text{cm}</mrow>
+            <mrow> = \amp 35.19 \text{cm} + 56 \text{cm}</mrow>
+            <mrow> = \amp 91.19 \text{cm}</mrow>
+
+           </md>
+           Perimeter of the sector is <m>91.19 \,\text{cm}</m>
+        </p>
+        </statement>
+    </solution>
     </example>
   </subsection>

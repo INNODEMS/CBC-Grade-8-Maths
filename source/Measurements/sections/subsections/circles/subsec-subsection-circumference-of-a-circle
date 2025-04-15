@@ -1,22 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <subsection xml:id="subsec-circumference-of-a-circle">
-    <title>circumference of a circle</title>
-      <p>
-      <m>{\color{blue}\text{Circumference}}</m> is the total distance distance around ta circle. 
-      </p>
-      <p>It is like the perimeter of a circle.</p>
+      <title>circumference of a circle</title>
    <activity>
     <statement>
       <p>
+        Round we go!
+      </p>
+      <p>
         Think of a hula hoop. The circumference is the length of the edge of a hula hoop if you could cut it and stretch it into a straight line. 
       </p>
+      <p>
+        <m>
+          \textbf{materials needed:} 3 circular objects (cups, lids, tins, etc.), String or flexible measuring tape, Ruler, Calculator, Worksheet or recording sheet
+        </m>
+      </p>
+      <p>
+        How many times do you think the diameter of a circle fits around its edge?
+      </p>
+      <p>
+        1. Gather your materials and measure and record:
+      </p>
+      <p>
+         (a) he diameter of each circular object using a flexible ruler or a string. Record the measurements in your work sheet,
+      </p>
+      <p>
+        (b) Measure the string with a ruler.
+      </p>
+      <p>
+        2.  Calculate (Discover the Pattern)
+      </p>
+      <p>
+        (a) Divide: <m>
+          \text{Circumference} \div \text{Diameter}
+        </m>
+        (b) Notice that the ratio is close to 3.14 which is the value of <m>\pi</m>.
+      </p>
+      <p>
+        (c) Now that they’ve discovered the pattern, calculate the circumference of each circle using the formula: <m>
+          \text{Circumference} = \pi \times \text{Diameter}</m>.
+        </p>
+        <p>
+          If <m>\pi = \frac{C}{d}</m> , then <m> C = \pi \times d</m>. 
+          <md>
+            <mrow>  C =\amp \pi d </mrow>
+          </md>
+      </p>
+      <p><m>\textbf {Study Questions}</m></p>
+      <p>
+        1. Why do you think the ratio is the same for all circles?
+      </p>
+      <p>
+        2. How does this help us in real-life situations?
+      </p>
+      <p>
+        3. Draw circles with a compass, measure radii, and use C=2πrC=2πr to calculate the perimeter.
+      </p>
+
     </statement>
    
    </activity>
-    <exploration>
-    <statement>
+   
+    <p>In this section, you will learn about the circumference of a circle.</p>
+    <p>In the previous section, you learned about the diameter and radius of a circle. The diameter is the distance across the circle through its center, while the radius is half of the diameter.</p>
+    <example>
+      <statement>
         <p> Circumference = <m>\pi d \text{ where,} \pi =\frac{22}{7} or 3.14</m>  or <m>2 \pi r</m>. <m>d</m>  is the diameter and <m>r</m> is the radius.</p>
-       <sidebyside>
+       
          <p>
           Find the circumference of the following circle given the radius <m>r = 56 \text{ cm }</m>. Use <m>\pi = \frac {22}{7}.</m>
          </p>
@@ -33,6 +82,8 @@
             \end{tikzpicture}
           </latex-image>
           </image>
+        </statement>
+        <solution>
             <p>
               <md>
                 <mrow> \text {Circumference } = \amp \pi d + d</mrow>
@@ -40,7 +91,7 @@
                 <mrow>  = \amp \frac {2464}{7} \text{ cm }  </mrow>
                 <mrow>  = \amp 352 \text{ cm } </mrow>
               </md>
-                            <p>OR</p>
+                            OR
               <md>
                <mrow> \text {Circumference } = \amp 2 \pi \text { r } </mrow>
                <mrow> \amp </mrow>
@@ -50,11 +101,14 @@
                <mrow> = \amp 352 \text{ cm }</mrow>
               </md>              
             </p>
-        </sidebyside>    
+          </solution>
+          </example>
+    <p>In the example above, you can see that the circumference of a circle is the distance around it. It is like the perimeter of a polygon, but for circles.</p> 
+      <statement>
         <p>
           Find the circumference of the following circles. Use <m>\pi = \frac {22}{7}.</m>
         </p>
-      <sidebyside>
+        <sidebyside>
           <image>
           <latex-image label = "circle-1">
             \begin{tikzpicture}
@@ -82,10 +136,15 @@
             \end{tikzpicture}  
           </latex-image>
           </image>
-        </sidebyside>   
-    </statement>
+         </sidebyside>   
+        </statement>
         
-    </exploration>
+    <p>
+      <m>\textbf{Key Takeaway}</m>
+     </p>
+     <p>The circumference of a circle is the distance around it. It is like the perimeter of a polygon, but for circles.</p>
+    <p>To find the circumference, you can use the formula: <m>\text{Circumference} = \pi d</m> or <m>2 \pi r</m>, where <m>d</m> is the diameter and <m>r</m> is the radius.</p>
+    
       <example>
         <statement>
           <p>

@@ -111,18 +111,18 @@
                 </row>
                 <row>
                     <cell>1 cm represents 500 m</cell>
-                    <cell>____________________________</cell>
-                    <cell>____________________________</cell>
+                    <cell>__________________</cell>
+                    <cell>__________________</cell>
                 </row>
                 <row>
                     <cell>2 cm represents 1 km</cell>
-                    <cell>____________________________</cell>
-                    <cell>____________________________</cell>
+                    <cell>__________________</cell>
+                    <cell>__________________</cell>
                 </row>  
                 <row>
                     <cell>1.5 cm represents 3.5 km</cell>
-                    <cell>____________________________</cell>
-                    <cell>____________________________</cell>
+                    <cell>__________________</cell>
+                    <cell>__________________</cell>
                 </row>  
             </tabular>
         </table>
@@ -206,22 +206,11 @@
             <m>\textbf{PART D: Group assessment}</m>
 
         </p>
-        <table>
-            <title>Assesment Rubric </title>
-            <tabular halign="left" valign="top" right="medium" left="medium" top="medium" bottom="medium">
-                <row>
-                    <cell>Criteria</cell>
-                    <cell>
-                        Excellent (3)
-                    </cell>
-                    <cell></cell>
-                </row>
-            </tabular>
-        </table>
+        
          <table>
             <title>Assessment Rubric (Sample)</title>
-            <tabular>
-              <row>
+            <tabular halign="left" valign="top" right="medium" left="medium" top="medium" bottom="medium">
+              <row header="yes">
                 <cell>Criteria</cell>
                 <cell>Excellent (3)</cell>
                 <cell>Good (2)</cell>
@@ -255,5 +244,98 @@
         </table> 
         
 
-    </activity>  
+    </activity> 
+    <example>
+        <statement>
+            <p>
+                The linear scale below was used to measure the distance between two mountain peaks on a map. The distance between the two peaks is <m>15 \textbf{ cm}</m>.
+            </p>
+            <p>
+               (a) Write the linear scale in ratio form.
+            </p>
+            <p>
+                (b) If the distance between the two peaks is <m>15 \textbf{ cm}</m>, what is the actual distance between the two peaks in km?
+            </p>
+            <p>
+                (c) If the distance between two other mountain peaks along the same range is <m>60 \textbf{ km}</m>, determine the scale of the distance between them on the map.
+            </p>
+             <image>
+                <latex-image label="Linear-Scale-mountain-peaks">
+                    \begin{tikzpicture}
+                        % Draw alternating black and white rectangles
+                        \foreach \i in {0,1,2,3} {
+                        \ifodd\i
+                            \fill[white] (\i,0) rectangle (\i+1,0.4);
+                        \else
+                            \fill[black] (\i,0) rectangle (\i+1,0.4);
+                        \fi
+                        }
+                    
+                        % Draw the border line at the top
+                        \draw[thick] (0,0.4) -- (4,0.4);
+                    
+                        % Vertical tick at the end
+                        \draw[thick] (4,0) -- (4,0.5);
+                    
+                        % Tick marks and labels
+                        \foreach \i in {0,1,2,3,4} {
+                        \draw[thick] (\i,0.4) -- (\i,0.5);
+                        \node[anchor=north] at (\i,0) {\i};
+                        }
+                    
+                        % Label
+                        \node[anchor=west] at (4.1,0.2) {Kilometers};
+                    \end{tikzpicture}
+                </latex-image>
+             </image>
+        </statement>
+        <solution>
+            <p>
+                (a) From the scale bar: The length of each bar is 1cm. 
+            </p>
+            <p>
+                The scale is <m>1 \textbf{ cm}</m> represents <m>1 \textbf{ km}</m>.
+            </p>
+            <p>
+               Convert 1 km to cm: 
+            </p>
+            <p>
+                <md>
+                    <mrow> 1 \text{km}= \amp  100\,000 \text{cm}</mrow>
+                </md>
+                Map:Actual distance = <m>1:100\,000 \textbf{ m}</m>
+
+                So the ratio is <m>1:100,000</m>.
+            </p>
+            <p>
+                (b) The actual distance between the two peaks is <m>15 \textbf{ cm}</m>.
+            </p>
+            <p>
+             Using the ratio 1:100 000, we can find the actual distance:    
+            </p>
+            <p>   
+                <md>
+                    <mrow> 1:100\,000 = \amp 1\text{cm} represents 100\,000\,\text{cm} </mrow>
+                    <mrow> 15\,\text{cm} = \amp ? </mrow>
+                    <mrow> = \amp \frac{15\,\text{cm } \times 100\,000 } {100\,000}</mrow>
+                    <mrow> = \amp {1\,500\,000}{100\,000}</mrow>
+                    <mrow> = \amp 15\, \text{km} </mrow>
+                </md>
+            </p>
+            <p>
+                (c) The distance between the two peaks is <m>60 \textbf{ km}</m>. Using the same ratio <m>1:100\,000</m>, we can determine the map distance for an actual distance of <m>60 \textbf{ km}</m>:
+                <md>
+                    <mrow> 60 \,\text{km} =  \amp 60\,\text{cm} \times 100\,000</mrow>
+                    <mrow> = \amp 6\,000\,000 \text{cm} </mrow>
+                    
+                </md>
+                Now divide by 100,000 to convert to map distance:
+                <md>
+                    <mrow> = \amp \frac{6\,000\,000 \text{cm} }{100\,000}</mrow>
+                    <mrow> = \amp 60\, \text{cm}</mrow>
+                </md>
+                The distance the two other peeks within the same range is <m>60 \textbf{ cm}</m>.
+            </p>
+        </solution>
+    </example> 
 </section>

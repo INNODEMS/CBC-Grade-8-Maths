@@ -3,9 +3,115 @@
  <subsection xml:id="subsec-length-of-an-arc-of-a-circle-2">
     <title>Length of an arc of a circle 2</title>
     <p>
-      A.
+      
     </p>
-    
+    <activity>
+      <statement>
+        <sidebyside>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>\textbf{Materials Needed:}</m> Paper plates or circular paper cutouts (one per group), Rulers, Protractors, Scissors, Colored pencils or markers and Calculator (optional)
+              </p>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                       Imagine you have a slice of pizza that’s a part of a big circular pizza. If you were to walk all the way around that slice (along the crust and down both sides), how far would you walk?"
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </li>
+          </ul>
+        </p>
+        <image source="/pizza-grade-eight.png">
+          <shortdescription>pizza image</shortdescription>
+         </image>
+      </sidebyside>
+      <p>
+        2, Creating a Sector
+      </p>
+      <p>
+        (a) Take a paper circle.
+      </p>
+      <p>
+        (b) Mark the center and draw a radius.
+      </p>
+      <p>
+       (c)  Using a protractor, measure and draw a central angle (e.g. 90°, 120°, or 60°).
+      </p>
+      <p>
+        (d) Cut out the sector (like a pizza slice).
+      </p>
+      <p>
+        3. Measuring the Arc Length
+      </p>
+      <p>
+        (a) Use a ruler to Measure the length of the radius (r).
+      </p>
+      <p>
+        (b) Use a protractor to measure the angle of the sector (θ)
+      </p>
+      <p>
+        (c) Use string or a flexible ruler to trace and measure the arc (for estimation).
+      </p>
+      <p>
+      (d) Use the formula for arc length to calculate the length of the arc.
+      </p>
+      <p>
+        4. Calculating the Arc Length
+      <md>
+        <mrow> \text{Arc Length} = \amp \frac{\theta}{360^\circ} \times 2 \pi r</mrow>
+      </md>
+      </p>
+      
+      </statement>
+    </activity>
+    <example>
+      <statement>
+        <p>
+          What is the length of the arc of a circle with a radius of 9 cm and a central angle of 135° as shown below?
+        </p>
+        <image>
+          <latex-image>
+            \begin{tikzpicture}
+            % Draw sector
+            \filldraw[fill=yellow!60, draw=black] 
+              (0,0) -- (9,0) 
+              arc[start angle=0, end angle=135, radius=9] -- cycle;
+          
+            % Draw radius label
+            \draw[&lt;-] (4.5,0) -- +(0,-0.8) node[below] {9 cm};
+          
+            % Draw angle arc and label
+            \draw (1.5,0) arc[start angle=0, end angle=135, radius=1.5];
+            \node at (1.2,1) {135°};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <solution>
+        <statement>
+          <p>
+            To find the length of the arc, we can use the formula:
+            <md>
+              <mrow> \text{Arc Length} = \amp \frac{\theta}{360^\circ} \times 2 \pi r</mrow>
+              <mrow> \text{Arc Length} = \amp \frac{135^\circ}{360^\circ} \times 2 \pi (9) </mrow>
+              <mrow> \text{Arc Length} = \amp \frac{135}{360} \times 18 \pi </mrow>
+              <mrow> \text{Arc Length} = \amp \frac{3}{8} \times 18 \pi </mrow>
+              <mrow> \text{Arc Length} = \amp \frac{54 \pi}{8} </mrow>
+              <mrow> \text{Arc Length} = \amp 6.75 \times 3.14</mrow>
+              <mrow> \text{Arc Length} = \amp 21.21 \text{ cm}</mrow>
+            </md>
+          <p>
+            Therefore, the length of the arc is approximately 21.21 cm.
+          </p>  
+          </p>
+        </statement>
+      </solution>
+    </example>  
     
     
   </subsection>

@@ -169,8 +169,8 @@
                     </p>
                     <table>
                         <title> Assessment Criteria / Rubric (Sample)</title>
-                        <tabular>
-                            <row>
+                        <tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+                            <row header="yes">
                                 <cell>Criteria</cell>
                                 <cell>Points (10)</cell>
                                     <cell>Student Score</cell>
@@ -274,4 +274,66 @@
                 </li>
             </ul>    
         </p>
+        <example>
+            <statement>
+                <p>
+                    The length of a classroom window using a scale of 1cm represents 0.5m is 2.5m and a width of 1.5m. 
+                </p>
+                <p>
+                    (a) Make a sketch of the classroom.
+                </p>
+                <p>
+                    
+                   (b) Make a scale drawing of the classroom.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                   (a) The figure below shows a sketch of the classroom window.
+                </p>
+                <image width="50%">
+                    <latex-image label="scale-drawing-window">
+                        \begin{tikzpicture}
+                            \draw[thick,purple!60] (0,0) --(0,1.5) --(3,1.5) --(3,0) --cycle;
+                            \node at(3,-0.3) {1.5 m};
+                            \node at (-0.3,0.75) {1.5m};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <p>(b) Make a scale drawing of the classroom</p>
+                <sidebyside>
+                    <p>
+                        0.5 m is represented by 1 cm. Therefore the length of the window is:
+                        <md>
+                            <mrow> 0.5\, \text{m } = \amp 1\, \text{cm} </mrow>
+                            <mrow> 2.5 \, \text{ m} = \amp ? </mrow>
+                            <mrow> = \amp \frac{2.5 \,  \times 1\, \text{cm}}{0.5 \,\text{cm}}</mrow>
+                            <mrow> = \amp \frac {25 \times 2}{10}\, \text{cm}  </mrow>
+                            <mrow> = \amp \frac {50}{10}\, \text{cm} </mrow>
+                            <mrow> = \amp 5\, \text{cm} </mrow>
+                        </md>
+                        The width of the window is:
+                        <md>
+                            <mrow> 0.5\, \text{m } = \amp 1\, \text{cm} </mrow>
+                            <mrow> 1.5 \, \text{ m} = \amp ? </mrow>
+                            <mrow> = \amp \frac{1.5 \,  \times 1\, \text{cm}}{0.5 \,\text{cm}}</mrow>
+                            <mrow> = \amp \frac {15 \times 2}{10} \, \text{cm} </mrow>
+                            <mrow> = \amp \frac {30}{10}\, \text{cm} </mrow>
+                            <mrow> = \amp 3\, \text{cm} </mrow>
+                        </md>
+                    </p>
+                    <image>
+                    <latex-image label="real-classroom-window">
+                        \begin{tikzpicture}
+                            \draw[thick,cyan!60] (0,0) --(0,3) --(5,3) --(5,0) --cycle;
+                            \node at(3,-0.3) {5 cm};
+                            \node at (-0.3,1.5) {3 cm};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                </sidebyside>
+                
+            </solution>
+            
+        </example>
 </section>
