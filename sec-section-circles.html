@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Circles</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Grade 8 Mathematics Textbook">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Daniel Murunga">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Henry Onyango">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Joseph Baya Karisa">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Rodgers Maragia">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Sheila Cherotich">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Isdora Akinyi">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Purity Ekadeli">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Harriet  Mogaka">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Eric  Morara">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Onyimbo Michael">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.6.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Grade 8 Mathematics Textbook:</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Daniel Murunga, Henry Onyango, Joseph Baya Karisa, Rodgers Maragia, Sheila Cherotich, Isdora Akinyi, Purity Ekadeli, Harriet  Mogaka, Eric  Morara, Onyimbo Michael</p>
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-measurements.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-measurements.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-section-area.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Integers.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-identifying-integers" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Identifying Integers in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-representing-integers-on-a-number-line" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Representing Integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-addition-of-integers" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Addition of integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-subtraction-of-integers" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Subtraction of Integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-combined-operations-of-integers-on-a-number-line" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Combined Operations of Integers on a Number Line</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-addition-and-subtraction" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Combined operations involving addition and subtraction.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-multiplication-and-division" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Combined operations involving multiplication and division.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsubsec-combined-operations-involving-three-operations" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Combined operations involving three operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-all-operations" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Combined operations involving all operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-brackets" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Combined operations involving brackets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-operations-involving-fractions-in-real-life" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Operations involving fractions in real life</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Decimals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-conversion-of-fractions-to-decimals" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Conversion of fractions to decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-recurring-decimals" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Recurring decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-converting-recurring-decimals-to-fractions" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Converting Recurring Decimals to Fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Rounding off decimal numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-expressing-numbers-to-the-required-significant-figures" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Expressing Numbers to the Required Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-expressing-numbers-in-standard-form" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Expressing Numbers in Standard Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-combined-operations" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Combined Operations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Squares and Square Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-whole-numbers-using-tables" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Squares of whole numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-decimal-numbers-using-tables" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Squares of decimal numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-square-roots-of-whole-numbers-using-tables" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Square roots of whole numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsubsec-square-roots-of-decimals-numbers-using-tables" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Square roots of decimal numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-numbers-from-a-calculator" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Squares of numbers from a calculator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-square-roots-of-numbers-from-a-calculator" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Square roots of numbers from a calculator</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Rates Ratio Proportions and Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-rates" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-Identifying-Rates-in-Different-Situations" class="internal"><span class="codenumber">1.5.1.1</span> <span class="title">Identifying Rates in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-Working-out-Rates-in-Real-Life-Situations" class="internal"><span class="codenumber">1.5.1.2</span> <span class="title">Working out Rates in Real Life Situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-ratio" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Ratio</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-Experessing-Fractions-as-Ratios-in-Real-Life-Situations" class="internal"><span class="codenumber">1.5.2.1</span> <span class="title">Experessing Fractions as Ratios in Real-Life Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-comparing-two-ratios-in-differnt-situations" class="internal"><span class="codenumber">1.5.2.2</span> <span class="title">Comparing Two Ratios in Differnt Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-comparing-three-ratios-in-different-situations" class="internal"><span class="codenumber">1.5.2.3</span> <span class="title">Comparing Three Ratios in Different Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-dividing-quantities-in-given-ratios-in-real-life-situations" class="internal"><span class="codenumber">1.5.2.4</span> <span class="title">Dividing Quantities in Given Ratios in Real Rife Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-rates-in-different-situations" class="internal"><span class="codenumber">1.5.2.5</span> <span class="title">Working Out Ratios in Different Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-increase-and-decrease-of-quantities-using-ratio-in-real-life-situations" class="internal"><span class="codenumber">1.5.2.6</span> <span class="title">Working Out Increase and Decrease of Quantities Using Ratio in Real Life Situations.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-propotions" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-identifying-direct-proportions-in-real-life" class="internal"><span class="codenumber">1.5.3.1</span> <span class="title">Identifying Direct Proportions in Real Life</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-direct-proportions-in-real-life-situations" class="internal"><span class="codenumber">1.5.3.2</span> <span class="title">Working Out Direct Proportions in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-identifying-indirect-proportions-in-real-life-situations" class="internal"><span class="codenumber">1.5.3.3</span> <span class="title">Identifying Indirect Proportionscin Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-indirect-proportions-in-real-life-situations" class="internal"><span class="codenumber">1.5.3.4</span> <span class="title">Working Out Indirect Proportions in Real Life Situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-percents" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-percentage-change-of-given-quantities-in-real-life-situations" class="internal"><span class="codenumber">1.5.4.1</span> <span class="title">Working Out Percentage Change of Given Quantities in Real Life Situations</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">2</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebraic expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-factorisation-of-algebraic-expressions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Factorisation of algebraic expressions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-factorisation-of-algebraic-expressions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-simplifying-algebraic-fractions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Simplifying algebraic fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-simplifying-algebraic-fractions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-evaluating-algebraic-expressions-by-substitution" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Evaluating algebraic expressions by substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-evaluating-algebraic-expressions-by-substitution" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear-equations.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Linear equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-measurements.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurements</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-section-circles.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Circles</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-circumference-of-a-circle" class="internal"><span class="codenumber">3.1.1</span> <span class="title">circumference of a circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-length-of-an-arc-of-a-circle-1" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Length of an arc of a circle 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-length-of-an-arc-of-a-circle-2" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Length of an arc of a circle 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-perimeter-of-a-sector-of-a-circle-1" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Perimeter of a sector of a circle 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-perimeter-of-a-sector-of-a-circle-2" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Perimeter of a sector of a circle 2</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-area.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-a-circle" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Area of a circle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-calculating-the-area-of-a-circle-in-different-situations" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Calculating the area of a circle in different situations.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-a-sector" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Area of a sector</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-area-of-a-sector-of-a-circle" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Area of a sector of a circle(1)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-area-of-a-sector-of-a-circle2" class="internal"><span class="codenumber">3.2.2.2</span> <span class="title">Area of a sector of a circle(2)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-cubes" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Surface area of cubes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-surface-area-of-cubes-in-real-life-situations" class="internal"><span class="codenumber">3.2.3.1</span> <span class="title">Surface area of cubes in real life situations.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-cuboids" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Surface area of cuboids</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-surface-area-of-cuboid" class="internal"><span class="codenumber">3.2.4.1</span> <span class="title">Working out the surface area of cuboids in real life.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-a-closed-cylinder" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Surface area of a closed cylinder</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-open-cylinders" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Surface area of open cylinders</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-triangular-prisms" class="internal"><span class="codenumber">3.2.7</span> <span class="title">Surface area of of triangular prisms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-determining-the-surface-area-of-triangular-prism" class="internal"><span class="codenumber">3.2.7.1</span> <span class="title">Determining the surface area of triangular prism in different situations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-irregular-shapes" class="internal"><span class="codenumber">3.2.8</span> <span class="title">Area of irregular shapes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-money.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Money</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-interest-and-principal" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Interest and principal</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-identifying-interest-and-principal" class="internal"><span class="codenumber">3.3.1.1</span> <span class="title">Identifying interest and principal in real lie situation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-simple-intrest" class="internal"><span class="codenumber">3.3.2</span> <span class="title">simple intrest(1)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-calculating-simple-interest" class="internal"><span class="codenumber">3.3.2.1</span> <span class="title">Calculating simple interest in real life situations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-simple-interest2" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Simple interest(2)</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-compound-interest" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Compound interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-compound-interest" class="internal"><span class="codenumber">3.3.4.1</span> <span class="title">Calculating compound interest step by step per annum in real life situation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-appreciation" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Appreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-depreciation-2" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Depreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-hire-purchase-2" class="internal"><span class="codenumber">3.3.7</span> <span class="title">Hire purchase</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-geometrical_constructions.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometrical Constructions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-definition" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Definition</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-parallel-lines" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Construction of Parallel Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-perpendicular-lines" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Construction of Perpendicular Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-dividing-lines-proportionally" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Dividing lines proportionally</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-angle-properties-of-polgons" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Angle Properties of Polgons</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-regular-polygons" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Construction of Regular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Construction-of-a-triangle" class="internal"><span class="codenumber">4.1.6.1</span> <span class="title">Construction of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Square" class="internal"><span class="codenumber">4.1.6.2</span> <span class="title">Construction of a Square</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Hexagon" class="internal"><span class="codenumber">4.1.6.3</span> <span class="title">Construction of a Regular Hexagon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-irregular-polygons" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Construction of Irregular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-construction-of-irregular-triangle" class="internal"><span class="codenumber">4.1.7.1</span> <span class="title">Construction of Irregular Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Construction-of-rhombus" class="internal"><span class="codenumber">4.1.7.2</span> <span class="title">Construction of a Rhombus</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Construction-of-irregular-pentagon" class="internal"><span class="codenumber">4.1.7.3</span> <span class="title">Construction of Irregular Pentagon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle" class="internal"><span class="codenumber">4.1.8</span> <span class="title">Construction of a Circle Touching the Vertices of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-a-circle-touching-the-sides-of-a-triangle" class="internal"><span class="codenumber">4.1.9</span> <span class="title">Construction of a Circle Touching the Sides of a Triangle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-coordinates_and_graphs.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Coordinates and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-the-cartesian-plane" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-identifying-points-on-the-cartesian-plane" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Identifying Points on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-plotting-points-on-the-cartesian-plane-in-different-situations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Plotting Points on the Cartesian Plane in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-table-of-values-for-linear-equations" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Table of Values for Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-appropriate-scale-for-a-linear-equation" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Appropriate Scale for a Linear Equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-linear-graphs" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Linear Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-solving-linear-simultaneous-equations-using-graphs" class="internal"><span class="codenumber">4.2.7</span> <span class="title">Solving Linear Simultaneous Equations Using Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-application-of-linear-simultaneous-equations-in-real-life" class="internal"><span class="codenumber">4.2.8</span> <span class="title">Application of Linear Simultaneous Equations in Real Life</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-scale_drawing.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Scale Drawing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-representing-length-to-a-given-scale" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Representing length to a given scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-conversion-of-actual-length-to-scale-length" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Conversion of actual length to scale length</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-conversion-of-scale-length-to-actual-length" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Conversion of scale length to actual length</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-interpreting-linear-scales-in-statement-form" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Interpreting linear scales in statement form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-writing-linear-scales-in-statement-form" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Writing linear scales in statement form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-interpreting-linear-scales-in-ratio-form" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Interpreting linear scales in ratio form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-writing-linear-scales-in-ratio-form" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Writing Linear Scales in Ratio Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-conversion-of-linear-scales-to-ratio-form" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Conversion of Linear Scales to Ratio Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-conversion-of-linear-scales-to-statement-form" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Conversion of Linear Scales to Statement Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-making-scale-drawings" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Making Scale Drawings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-application-of-scale-drawings1" class="internal"><span class="codenumber">4.3.7</span> <span class="title">Application of scale drawings(1)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-application-of-scale-drawings2" class="internal"><span class="codenumber">4.3.8</span> <span class="title">Application of scale drawings(2)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-common_solids.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Common Solids</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-Identificatio-of-common-solids" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Identification of common solids</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-The-net-of-a-cube" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The net of a cube</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-The-net-of-a-cuboid" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The net of a cuboid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-The-net-of-a-cylinder" class="internal"><span class="codenumber">4.4.4</span> <span class="title">The net of a cylinder</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-net-of-a-pyramid" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Net of a Pyramid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-net-of-a-cone" class="internal"><span class="codenumber">4.4.6</span> <span class="title">The net of a cone</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cube" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Surface area of a cube</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cuboid" class="internal"><span class="codenumber">4.4.8</span> <span class="title">Surface area of a cuboid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cylinder" class="internal"><span class="codenumber">4.4.9</span> <span class="title">Surface area of a cylinder</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-pyramid" class="internal"><span class="codenumber">4.4.10</span> <span class="title">Surface area of a pyramid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cone" class="internal"><span class="codenumber">4.4.11</span> <span class="title">Surface area of a cone</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-distance-between-two-points-on-the-surface-of-a-solid" class="internal"><span class="codenumber">4.4.12</span> <span class="title">Distance between two points on the surface of a solid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-models-of-hollow-solids-1" class="internal"><span class="codenumber">4.4.13</span> <span class="title">Models of hollow solids</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-models-of-compact-solids-1" class="internal"><span class="codenumber">4.4.14</span> <span class="title">Models of compact solids</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-data-handling-and-probability.html" class="internal"><span class="codenumber">5</span> <span class="title">Data Handling and Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Data Presentation and Interpretation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-drawing-bar-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Drawing Bar Graphs of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-interpreting-bar-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Interpreting Bar Graphs of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Drawing Line Graphs of Data of given Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-interpreting-line-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Interpreting Line Graphs of  Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Identifying the Mode of a Set of Discrete Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Calculating the Mean of a Set of Discrete Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Determining the Median of a Set of Discrete Data</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-identifying-events-involving-chance-in-real-life-situations" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Identifying Events Involving Chance in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-performing-chance-experiments-in-different-situations" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Performing chance experiments in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-writing-experimental-probability-outcomes-in-different-situations" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Writing experimental probability outcomes in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-fractions-in-different-situations" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Expressing probability outcomes in fractions in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-decimals-in-different-situations" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Expressing probability outcomes in decimals  in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-percentages-in-different-situations" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Expressing probability outcomes in percentages in different situations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-section-circles"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Circles</span>
+</h2>
+<div class="para" id="sec-section-circles-2"></div>
+<section class="subsection" id="subsec-circumference-of-a-circle"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">circumference of a circle</span>
+</h3>
+<div class="para" id="subsec-circumference-of-a-circle-2">
+<span class="process-math">\({\color{blue}\text{Circumference}}\)</span> is the total distance distance around ta circle.</div>
+<div class="para" id="subsec-circumference-of-a-circle-3">It is like the perimeter of a circle.</div>
+<article class="activity project-like" id="subsec-circumference-of-a-circle-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-circumference-of-a-circle-4-1-1">Think of a hula hoop. The circumference is the length of the edge of a hula hoop if you could cut it and stretch it into a straight line.</div></article><article class="exploration project-like" id="subsec-circumference-of-a-circle-5"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-circumference-of-a-circle-5-1-1">Circumference = <span class="process-math">\(\pi d \text{ where,} \pi =\frac{22}{7} or 3.14\)</span>  or <span class="process-math">\(2 \pi r\text{.}\)</span> <span class="process-math">\(d\)</span>  is the diameter and <span class="process-math">\(r\)</span> is the radius.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="subsec-circumference-of-a-circle-5-1-2-1">Find the circumference of the following circle given the radius <span class="process-math">\(r = 56 \text{ cm }\text{.}\)</span> Use <span class="process-math">\(\pi = \frac {22}{7}.\)</span>
+</div></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><img src="generated/latex-image/circle.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para logical" id="subsec-circumference-of-a-circle-5-1-2-3">
+<div class="displaymath process-math" id="subsec-circumference-of-a-circle-5-1-2-3-1">
+\begin{align*}
+\text {Circumference } = \amp \pi d + d\\
+= \amp \frac {22}{7} \times 112 \text{ cm }  \\
+= \amp \frac {2464}{7} \text{ cm }  \\
+= \amp 352 \text{ cm } 
+\end{align*}
+</div>
+<div class="para"><div class="para" id="subsec-circumference-of-a-circle-5-1-2-3-2">OR</div></div>
+<div class="displaymath process-math" id="subsec-circumference-of-a-circle-5-1-2-3-3">
+\begin{align*}
+\text {Circumference } = \amp 2 \pi \text { r } \\
+\amp \\
+= \amp \frac {22}{7} \times 56 \text{ cm } \\
+= \amp \frac {44 \times 56}{7} \text{ cm }  \\
+= \amp  \frac {2464}{7} \text{ cm } + 112 \text { cm }\\
+= \amp 352 \text{ cm }
+\end{align*}
+</div>
+</div></div>
+</div></div> <div class="para" id="subsec-circumference-of-a-circle-5-1-3">Find the circumference of the following circles. Use <span class="process-math">\(\pi = \frac {22}{7}.\)</span>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><img src="generated/latex-image/circle-1.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:50%;"><img src="generated/latex-image/radi.svg" role="img" class="contained"></div>
+</div></div></article><article class="example example-like" id="subsec-circumference-of-a-circle-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-circumference-of-a-circle-6-1-1">The radius of a flower garden is <span class="process-math">\(6\)</span>m. What length of barbed wire can fence the garden using five strands of the barbed wire? <span class="process-math">\((\text{use} \pi = 3.142)\)</span>
+</div>
+<div class="solutions"><details id="subsec-circumference-of-a-circle-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-circumference-of-a-circle-6-2-1">
+<div class="displaymath process-math" id="subsec-circumference-of-a-circle-6-2-1-1">
+\begin{align*}
+\text{ Circumference is } 2 \pi r= \amp 2 \times \frac {22}{7} \times 3.142 \times 6 \text {m}\\
+= \amp 37.704 \text{m} \\
+\text { Total length of barbed wire } = \amp 37.704 \text{ m} \times 5\\
+= \amp 188.52 \text{m} 
+\end{align*}
+</div>
+<div class="para">md</div>
+</div></div></details></div></article><div class="para" id="subsec-circumference-of-a-circle-7-1">Note the difference between the formulas for calculating the circumfrence of a circle and a semicircle.</div> <div class="para" id="subsec-circumference-of-a-circle-7-2">Share with your friends and classmates.</div>
+<article class="example example-like" id="subsec-circumference-of-a-circle-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-circumference-of-a-circle-8-1-1">Find the perimeter of the figure below.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/circle-2.svg" role="img" class="contained"></div>
+<div class="solutions"><details id="subsec-circumference-of-a-circle-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-circumference-of-a-circle-8-2-1"><div class="displaymath process-math" id="subsec-circumference-of-a-circle-8-2-1-1">
+\begin{align*}
+\text{ Circumference } = \amp \frac {1}{2} \pi d + d\\
+d =\amp 2 \text{ r } \\
+d =\amp 42 \text{ cm } \\
+= \amp \frac {1}{2} \times \frac {22}{7} \times 42 \text{ cm } + 42 \text{ cm }   \\
+= \amp \frac {924}{14} \text{ cm } + 42 \text{ cm }   \\
+= \amp ( 66 +42 )\text{ cm }  \\
+= \amp 108 \text{ cm }  
+\end{align*}
+</div></div>
+<div class="para" id="subsec-circumference-of-a-circle-8-2-2">OR</div>
+<div class="para logical" id="subsec-circumference-of-a-circle-8-2-3"><div class="displaymath process-math" id="subsec-circumference-of-a-circle-8-2-3-1">
+\begin{align*}
+\text { Circumference } = \amp \pi r + 2r\\
+2 \text{r} =\amp 42 \text{ cm } \\
+= \amp \times \frac {22}{7} \times 21 \text{ cm } + 2(21) \text{ cm }   \\
+= \amp \frac {462}{7} \text{ cm } + 42 \text{ cm }   \\
+= \amp ( 66 + 42 )\text{ cm }  \\
+= \amp 108 \text{ cm }  
+\end{align*}
+</div></div>
+</div></details></div></article><article class="example example-like" id="subsec-circumference-of-a-circle-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+</h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:33.3333333333333%;"><img src="generated/latex-image/circle-full.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><img src="generated/latex-image/three-quarter-circle.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><img src="generated/latex-image/quarter-circle.svg" role="img" class="contained"></div>
+</div></div>
+<div class="solutions"><details id="subsec-circumference-of-a-circle-9-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-circumference-of-a-circle-9-3-1-1"><ol class="lower-alpha ol-marker-5" id="subsec-circumference-of-a-circle-9-3-1-1-1">
+<li id="subsec-circumference-of-a-circle-9-3-1-1-1-1"><div class="para logical" id="subsec-circumference-of-a-circle-9-3-1-1-1-1-1"><div class="displaymath process-math" id="subsec-circumference-of-a-circle-9-3-1-1-1-1-1-1">
+\begin{align*}
+\text { Circumference } = \amp \pi r + 2r\\
+2 \text{r} =\amp 56.7 \text{ cm }  \times 2 = 113.4 \text{ cm } \\
+= \amp \times 3.14 \times 56.7 \text{ cm } + 113.4 \text{ cm }  \\
+= \amp 178.038 \text{ cm } + 113.4 \text{ cm } \\
+= \amp ( 66 + 42 )\text{ cm }  \\
+= \amp 291.438 \text{ cm }  
+\end{align*}
+</div></div></li>
+<li id="subsec-circumference-of-a-circle-9-3-1-1-1-2"><div class="para logical" id="subsec-circumference-of-a-circle-9-3-1-1-1-2-1"><div class="displaymath process-math" id="subsec-circumference-of-a-circle-9-3-1-1-1-2-1-1">
+\begin{align*}
+\text{ Circumference } = \amp \frac {3}{4} \times 2\pi r + 2 \text {r}\\
+2 \text{ r }  =\amp 2 \times 7 \text { cm } = 14 \text { cm } \\
+= \amp \frac {3}{4} \times \frac {22}{7} \times 14 \text { cm } + 14 \text{ cm }   \\
+= \amp \frac {924}{28} \text { cm } + 14 \text{ cm }   \\
+= \amp ( 33 + 14 )\text { cm }  \\
+= \amp 47 \text{ cm }  
+\end{align*}
+</div></div></li>
+<li id="subsec-circumference-of-a-circle-9-3-1-1-1-3"><div class="para logical" id="subsec-circumference-of-a-circle-9-3-1-1-1-3-1"><div class="displaymath process-math" id="subsec-circumference-of-a-circle-9-3-1-1-1-3-1-1">
+\begin{align*}
+\text{ Circumference } = \amp \frac {1}{4} \times 2\pi r + 2 \text {r}\\
+2 \text{ r }  =\amp 2 \times 35 \text { cm } = 70 \text { cm } \\
+= \amp \frac {1}{4} \times \frac {22}{7} \times 70 \text { cm } + 70 \text{ cm }   \\
+= \amp \frac {308}{28} \text { cm } + 14 \text{ cm }   \\
+= \amp ( 110 + 70 )\text { cm }  \\
+= \amp 180 \text{ cm }  
+\end{align*}
+</div></div></li>
+</ol></div></div></details></div></article></section><section class="subsection" id="subsec-length-of-an-arc-of-a-circle-1"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Length of an arc of a circle 1</span>
+</h3>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-1-2">In the previous section we have explored about getting perimeter that is the circumference of a circle. Can you remember how you did it?</div>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-1-3">In this section we will calculate the arc length of two sectors namely,semi-circle and quarter circle.</div>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-1-4">An arc is a part of the circumference of a circle. The <span class="process-math">\(\textbf {circumference} \)</span> is the total distance around the circle, and an arc is just a section of that curved edge.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:25%;"><img src="generated/latex-image/circle-5.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:25%;"><img src="generated/latex-image/threequarter-1.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:25%;"><div class="para" id="subsec-length-of-an-arc-of-a-circle-1-5-3">example quarter</div></div>
+<div class="sbspanel top" style="width:25%;"><img src="generated/latex-image/quarter-3.svg" role="img" class="contained"></div>
+</div></div>
+<article class="activity project-like" id="subsec-length-of-an-arc-of-a-circle-1-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+</h4>
+<ul class="disc" id="subsec-length-of-an-arc-of-a-circle-1-6-1"><li id="subsec-length-of-an-arc-of-a-circle-1-6-1-1"><div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-1-1-1">What you require: Circular cut out of a known diameter , a pair of scissors or razor blade, a ruler and a piece of string.</div></li></ul>
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-2-1">Calculate the circumference of the cut out by measuring the crcular edge using a string.</div>
+      
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-3-1">Use a ruler to measure the length of the string.</div>
+      
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-4-1">Cut the cutout into two equal parts along the diameter. This enables you obtain two equal objects called a <span class="process-math">\(\textbf { Semi-circle.}\)</span>
+</div>
+      
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-5-1">Measure the curved length of one semi-circle using a string. Use a ruler to measure the length of the string.</div>
+      
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-6-1">Measure the angle of the at the centre O  of the semicircle. Express the angle as a fraction of <span class="process-math">\(360 ^\circ\text{.}\)</span>
+</div>
+      
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-7-1">Compare the answer you got in step 3 and the answer you got in step 4. What do you notice?</div>
+      
+        <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-8-1">Discuss how to calculate the length of the arc of the semi-circle.</div>
+      <div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-9">A semi-circle is a sector of a circle. Where the term sector is derived from the word section.</div>
+<details id="subsec-length-of-an-arc-of-a-circle-1-6-10" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-10-1">Arc length of a semi-circle is given by  <span class="process-math">\(\frac {180^ \circ} {360^ \circ} \times \pi \text { d or}  \frac {180^ \circ} {360^ \circ} \times 2 \pi r = \frac {1}{2} \pi \text{ d or } \frac {1}{2}(2 \pi r)\)</span>
+</div></div></details><div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-11">Do an extended activity to explore on how to calculate the length of the arc of a quarter circle by simply cutting the semi-circle and repeat the steps of measuring circumference length</div>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-12">A quarter a circle is called a quadrant. So how many Quadrants do we have? <span class="process-math">\(\textbf{ 4 }.\)</span>
+</div>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-13">A quarter-circle is also a sector of a circle.</div>
+<details id="subsec-length-of-an-arc-of-a-circle-1-6-14" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-14-1">Arc length of a quarter-circle is <span class="process-math">\(\frac {90^ \circ} {360^ \circ} \times \pi \text{ d or } \frac {90^ \circ} {360^ \circ} \times 2 \pi r =  \frac {1}{4} \pi \text{ d  or } \frac {1}{4}(2 \pi r)\)</span>
+</div></div></details><div class="para" id="subsec-length-of-an-arc-of-a-circle-1-6-15">Can you compute one for a three quarter-circle?</div></article><article class="example example-like" id="subsec-length-of-an-arc-of-a-circle-1-7"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-1-7-1-1">Work out the perimeter of the following sectors of a circle.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><img src="generated/latex-image/three-quarter-circle-1.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:50%;"><img src="generated/latex-image/quarter-circle-1.svg" role="img" class="contained"></div>
+</div></div>
+<div class="solutions"><details id="subsec-length-of-an-arc-of-a-circle-1-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1"><ol class="lower-alpha ol-marker-5" id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1">
+<li id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1-1"><div class="para logical" id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1-1-1"><div class="displaymath process-math" id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1-1-1-1">
+\begin{align*}
+\text{ Circumference } = \amp \frac {3}{4} \times 2\pi r + 2 \text {r}\\
+2 \text{ r }  =\amp 2 \times 7 \text { cm } = 14 \text { cm } \\
+= \amp \frac {3}{4} \times \frac {22}{7} \times 14 \text { cm } + 14 \text{ cm }   \\
+= \amp \frac {924}{28} \text { cm } + 14 \text{ cm }   \\
+= \amp ( 33 + 14 )\text { cm }  \\
+= \amp 47 \text{ cm }  
+\end{align*}
+</div></div></li>
+<li id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1-2"><div class="para logical" id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1-2-1"><div class="displaymath process-math" id="subsec-length-of-an-arc-of-a-circle-1-7-2-1-1-1-2-1-1">
+\begin{align*}
+\text{ Circumference } = \amp \frac {1}{4} \times 2\pi r + 2 \text {r}\\
+2 \text{ r }  =\amp 2 \times 35 \text { cm } = 70 \text { cm } \\
+= \amp \frac {1}{4} \times \frac {22}{7} \times 70 \text { cm } + 70 \text{ cm }   \\
+= \amp \frac {308}{28} \text { cm } + 14 \text{ cm }   \\
+= \amp ( 110 + 70 )\text { cm }  \\
+= \amp 180 \text{ cm }  
+\end{align*}
+</div></div></li>
+</ol></div></div></details></div></article></section><section class="subsection" id="subsec-length-of-an-arc-of-a-circle-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Length of an arc of a circle 2</span>
+</h3>
+<div class="para" id="subsec-length-of-an-arc-of-a-circle-2-2">A.</div></section><section class="subsection" id="subsec-perimeter-of-a-sector-of-a-circle-1"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Perimeter of a sector of a circle 1</span>
+</h3>
+<div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-2">A.</div>
+<article class="activity project-like" id="subsec-perimeter-of-a-sector-of-a-circle-1-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1"><ul class="disc" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1">
+<li id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-1"><div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-1-1">Draw a circle of a radius <span class="process-math">\(3.5 \text{ cm}\)</span> on a piece of paper.</div></li>
+<li id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-2"><div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-2-1">Cut out the cicle around it’s boundary.</div></li>
+<li id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-3"><div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-3-1">Fold the circular cut-out into four equal parts and cut out one of the four parts.</div></li>
+<li id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-4"><div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-4-1">Calculate the arc length of the sector cut out.</div></li>
+<li id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-5"><div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-5-1">Add the sum of the two radii in the arc length.</div></li>
+<li id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-6"><div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-1-1-6-1">Discuss and compare the resukts with other groups.</div></li>
+</ul></div>
+<div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-1-3-2">The perimeter of a sector is the sum of it’s arc length and the two radii.</div></article><article class="example example-like" id="subsec-perimeter-of-a-sector-of-a-circle-1-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+</h4></article></section><section class="subsection" id="subsec-perimeter-of-a-sector-of-a-circle-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Perimeter of a sector of a circle 2</span>
+</h3>
+<div class="para" id="subsec-perimeter-of-a-sector-of-a-circle-2-2">paragraph</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-measurements.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-section-area.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

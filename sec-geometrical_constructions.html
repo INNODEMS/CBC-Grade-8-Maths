@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Geometrical Constructions</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Grade 8 Mathematics Textbook">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Daniel Murunga">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Henry Onyango">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Joseph Baya Karisa">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Rodgers Maragia">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Sheila Cherotich">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Isdora Akinyi">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Purity Ekadeli">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Harriet  Mogaka">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Eric  Morara">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Onyimbo Michael">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.6.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Grade 8 Mathematics Textbook:</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Daniel Murunga, Henry Onyango, Joseph Baya Karisa, Rodgers Maragia, Sheila Cherotich, Isdora Akinyi, Purity Ekadeli, Harriet  Mogaka, Eric  Morara, Onyimbo Michael</p>
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-Geometry.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Geometry.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-coordinates_and_graphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Integers.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-identifying-integers" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Identifying Integers in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-representing-integers-on-a-number-line" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Representing Integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-addition-of-integers" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Addition of integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-subtraction-of-integers" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Subtraction of Integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-combined-operations-of-integers-on-a-number-line" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Combined Operations of Integers on a Number Line</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-addition-and-subtraction" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Combined operations involving addition and subtraction.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-multiplication-and-division" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Combined operations involving multiplication and division.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsubsec-combined-operations-involving-three-operations" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Combined operations involving three operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-all-operations" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Combined operations involving all operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-brackets" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Combined operations involving brackets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-operations-involving-fractions-in-real-life" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Operations involving fractions in real life</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Decimals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-conversion-of-fractions-to-decimals" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Conversion of fractions to decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-recurring-decimals" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Recurring decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-converting-recurring-decimals-to-fractions" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Converting Recurring Decimals to Fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Rounding off decimal numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-expressing-numbers-to-the-required-significant-figures" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Expressing Numbers to the Required Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-expressing-numbers-in-standard-form" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Expressing Numbers in Standard Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-combined-operations" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Combined Operations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Squares and Square Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-whole-numbers-using-tables" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Squares of whole numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-decimal-numbers-using-tables" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Squares of decimal numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-square-roots-of-whole-numbers-using-tables" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Square roots of whole numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsubsec-square-roots-of-decimals-numbers-using-tables" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Square roots of decimal numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-numbers-from-a-calculator" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Squares of numbers from a calculator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-square-roots-of-numbers-from-a-calculator" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Square roots of numbers from a calculator</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Rates Ratio Proportions and Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-rates" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-Identifying-Rates-in-Different-Situations" class="internal"><span class="codenumber">1.5.1.1</span> <span class="title">Identifying Rates in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-Working-out-Rates-in-Real-Life-Situations" class="internal"><span class="codenumber">1.5.1.2</span> <span class="title">Working out Rates in Real Life Situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-ratio" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Ratio</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-Experessing-Fractions-as-Ratios-in-Real-Life-Situations" class="internal"><span class="codenumber">1.5.2.1</span> <span class="title">Experessing Fractions as Ratios in Real-Life Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-comparing-two-ratios-in-differnt-situations" class="internal"><span class="codenumber">1.5.2.2</span> <span class="title">Comparing Two Ratios in Differnt Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-comparing-three-ratios-in-different-situations" class="internal"><span class="codenumber">1.5.2.3</span> <span class="title">Comparing Three Ratios in Different Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-dividing-quantities-in-given-ratios-in-real-life-situations" class="internal"><span class="codenumber">1.5.2.4</span> <span class="title">Dividing Quantities in Given Ratios in Real Rife Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-rates-in-different-situations" class="internal"><span class="codenumber">1.5.2.5</span> <span class="title">Working Out Ratios in Different Situations.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-increase-and-decrease-of-quantities-using-ratio-in-real-life-situations" class="internal"><span class="codenumber">1.5.2.6</span> <span class="title">Working Out Increase and Decrease of Quantities Using Ratio in Real Life Situations.</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-propotions" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-identifying-direct-proportions-in-real-life" class="internal"><span class="codenumber">1.5.3.1</span> <span class="title">Identifying Direct Proportions in Real Life</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-direct-proportions-in-real-life-situations" class="internal"><span class="codenumber">1.5.3.2</span> <span class="title">Working Out Direct Proportions in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-identifying-indirect-proportions-in-real-life-situations" class="internal"><span class="codenumber">1.5.3.3</span> <span class="title">Identifying Indirect Proportionscin Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-indirect-proportions-in-real-life-situations" class="internal"><span class="codenumber">1.5.3.4</span> <span class="title">Working Out Indirect Proportions in Real Life Situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsec-percents" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html#subsubsec-working-out-percentage-change-of-given-quantities-in-real-life-situations" class="internal"><span class="codenumber">1.5.4.1</span> <span class="title">Working Out Percentage Change of Given Quantities in Real Life Situations</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">2</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebraic expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-factorisation-of-algebraic-expressions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Factorisation of algebraic expressions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-factorisation-of-algebraic-expressions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-simplifying-algebraic-fractions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Simplifying algebraic fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-simplifying-algebraic-fractions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-evaluating-algebraic-expressions-by-substitution" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Evaluating algebraic expressions by substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-evaluating-algebraic-expressions-by-substitution" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear-equations.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Linear equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-measurements.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-circles.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Circles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-circumference-of-a-circle" class="internal"><span class="codenumber">3.1.1</span> <span class="title">circumference of a circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-length-of-an-arc-of-a-circle-1" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Length of an arc of a circle 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-length-of-an-arc-of-a-circle-2" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Length of an arc of a circle 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-perimeter-of-a-sector-of-a-circle-1" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Perimeter of a sector of a circle 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-perimeter-of-a-sector-of-a-circle-2" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Perimeter of a sector of a circle 2</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-area.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-a-circle" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Area of a circle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-calculating-the-area-of-a-circle-in-different-situations" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Calculating the area of a circle in different situations.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-a-sector" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Area of a sector</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-area-of-a-sector-of-a-circle" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Area of a sector of a circle(1)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-area-of-a-sector-of-a-circle2" class="internal"><span class="codenumber">3.2.2.2</span> <span class="title">Area of a sector of a circle(2)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-cubes" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Surface area of cubes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-surface-area-of-cubes-in-real-life-situations" class="internal"><span class="codenumber">3.2.3.1</span> <span class="title">Surface area of cubes in real life situations.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-cuboids" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Surface area of cuboids</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-surface-area-of-cuboid" class="internal"><span class="codenumber">3.2.4.1</span> <span class="title">Working out the surface area of cuboids in real life.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-a-closed-cylinder" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Surface area of a closed cylinder</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-open-cylinders" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Surface area of open cylinders</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-triangular-prisms" class="internal"><span class="codenumber">3.2.7</span> <span class="title">Surface area of of triangular prisms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-determining-the-surface-area-of-triangular-prism" class="internal"><span class="codenumber">3.2.7.1</span> <span class="title">Determining the surface area of triangular prism in different situations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-irregular-shapes" class="internal"><span class="codenumber">3.2.8</span> <span class="title">Area of irregular shapes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-money.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Money</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-interest-and-principal" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Interest and principal</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-identifying-interest-and-principal" class="internal"><span class="codenumber">3.3.1.1</span> <span class="title">Identifying interest and principal in real lie situation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-simple-intrest" class="internal"><span class="codenumber">3.3.2</span> <span class="title">simple intrest(1)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-calculating-simple-interest" class="internal"><span class="codenumber">3.3.2.1</span> <span class="title">Calculating simple interest in real life situations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-simple-interest2" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Simple interest(2)</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-compound-interest" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Compound interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-compound-interest" class="internal"><span class="codenumber">3.3.4.1</span> <span class="title">Calculating compound interest step by step per annum in real life situation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-appreciation" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Appreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-depreciation-2" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Depreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-hire-purchase-2" class="internal"><span class="codenumber">3.3.7</span> <span class="title">Hire purchase</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-geometrical_constructions.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometrical Constructions</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-definition" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Definition</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-parallel-lines" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Construction of Parallel Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-perpendicular-lines" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Construction of Perpendicular Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-dividing-lines-proportionally" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Dividing lines proportionally</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-angle-properties-of-polgons" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Angle Properties of Polgons</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-regular-polygons" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Construction of Regular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Construction-of-a-triangle" class="internal"><span class="codenumber">4.1.6.1</span> <span class="title">Construction of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Square" class="internal"><span class="codenumber">4.1.6.2</span> <span class="title">Construction of a Square</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Hexagon" class="internal"><span class="codenumber">4.1.6.3</span> <span class="title">Construction of a Regular Hexagon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-irregular-polygons" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Construction of Irregular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-construction-of-irregular-triangle" class="internal"><span class="codenumber">4.1.7.1</span> <span class="title">Construction of Irregular Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Construction-of-rhombus" class="internal"><span class="codenumber">4.1.7.2</span> <span class="title">Construction of a Rhombus</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsubsec-Construction-of-irregular-pentagon" class="internal"><span class="codenumber">4.1.7.3</span> <span class="title">Construction of Irregular Pentagon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle" class="internal"><span class="codenumber">4.1.8</span> <span class="title">Construction of a Circle Touching the Vertices of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geometrical_constructions.html#subsec-construction-of-a-circle-touching-the-sides-of-a-triangle" class="internal"><span class="codenumber">4.1.9</span> <span class="title">Construction of a Circle Touching the Sides of a Triangle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-coordinates_and_graphs.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Coordinates and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-the-cartesian-plane" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-identifying-points-on-the-cartesian-plane" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Identifying Points on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-plotting-points-on-the-cartesian-plane-in-different-situations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Plotting Points on the Cartesian Plane in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-table-of-values-for-linear-equations" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Table of Values for Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-appropriate-scale-for-a-linear-equation" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Appropriate Scale for a Linear Equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-linear-graphs" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Linear Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-solving-linear-simultaneous-equations-using-graphs" class="internal"><span class="codenumber">4.2.7</span> <span class="title">Solving Linear Simultaneous Equations Using Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-application-of-linear-simultaneous-equations-in-real-life" class="internal"><span class="codenumber">4.2.8</span> <span class="title">Application of Linear Simultaneous Equations in Real Life</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-scale_drawing.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Scale Drawing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-representing-length-to-a-given-scale" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Representing length to a given scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-conversion-of-actual-length-to-scale-length" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Conversion of actual length to scale length</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-conversion-of-scale-length-to-actual-length" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Conversion of scale length to actual length</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-interpreting-linear-scales-in-statement-form" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Interpreting linear scales in statement form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-writing-linear-scales-in-statement-form" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Writing linear scales in statement form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-interpreting-linear-scales-in-ratio-form" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Interpreting linear scales in ratio form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-writing-linear-scales-in-ratio-form" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Writing Linear Scales in Ratio Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-conversion-of-linear-scales-to-ratio-form" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Conversion of Linear Scales to Ratio Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-conversion-of-linear-scales-to-statement-form" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Conversion of Linear Scales to Statement Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html#sec-making-scale-drawings" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Making Scale Drawings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-application-of-scale-drawings1" class="internal"><span class="codenumber">4.3.7</span> <span class="title">Application of scale drawings(1)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale_drawing.html#subsec-application-of-scale-drawings2" class="internal"><span class="codenumber">4.3.8</span> <span class="title">Application of scale drawings(2)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-common_solids.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Common Solids</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-Identificatio-of-common-solids" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Identification of common solids</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-The-net-of-a-cube" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The net of a cube</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-The-net-of-a-cuboid" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The net of a cuboid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-The-net-of-a-cylinder" class="internal"><span class="codenumber">4.4.4</span> <span class="title">The net of a cylinder</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-net-of-a-pyramid" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Net of a Pyramid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-net-of-a-cone" class="internal"><span class="codenumber">4.4.6</span> <span class="title">The net of a cone</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cube" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Surface area of a cube</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cuboid" class="internal"><span class="codenumber">4.4.8</span> <span class="title">Surface area of a cuboid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cylinder" class="internal"><span class="codenumber">4.4.9</span> <span class="title">Surface area of a cylinder</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-pyramid" class="internal"><span class="codenumber">4.4.10</span> <span class="title">Surface area of a pyramid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-surface-area-of-a-cone" class="internal"><span class="codenumber">4.4.11</span> <span class="title">Surface area of a cone</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-distance-between-two-points-on-the-surface-of-a-solid" class="internal"><span class="codenumber">4.4.12</span> <span class="title">Distance between two points on the surface of a solid</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-models-of-hollow-solids-1" class="internal"><span class="codenumber">4.4.13</span> <span class="title">Models of hollow solids</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-common_solids.html#subsec-models-of-compact-solids-1" class="internal"><span class="codenumber">4.4.14</span> <span class="title">Models of compact solids</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-data-handling-and-probability.html" class="internal"><span class="codenumber">5</span> <span class="title">Data Handling and Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Data Presentation and Interpretation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-drawing-bar-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Drawing Bar Graphs of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-interpreting-bar-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Interpreting Bar Graphs of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Drawing Line Graphs of Data of given Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-interpreting-line-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Interpreting Line Graphs of  Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Identifying the Mode of a Set of Discrete Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Calculating the Mean of a Set of Discrete Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Determining the Median of a Set of Discrete Data</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-identifying-events-involving-chance-in-real-life-situations" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Identifying Events Involving Chance in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-performing-chance-experiments-in-different-situations" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Performing chance experiments in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-writing-experimental-probability-outcomes-in-different-situations" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Writing experimental probability outcomes in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-fractions-in-different-situations" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Expressing probability outcomes in fractions in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-decimals-in-different-situations" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Expressing probability outcomes in decimals  in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-percentages-in-different-situations" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Expressing probability outcomes in percentages in different situations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-geometrical_constructions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.1</span><span class="space"> </span><span class="title">Geometrical Constructions</span>
+</h2>
+<section class="subsection" id="subsec-definition"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="space"> </span><span class="title">Definition</span>
+</h3>
+<div class="para" id="subsec-definition-2">Geometrical constructions are a way of creating geometric figures using only a compass and a straightedge. These constructions are based on a set of rules that allow you to create figures such as lines, angles, and polygons with a high degree of accuracy.</div></section><section class="subsection" id="subsec-construction-of-parallel-lines"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="space"> </span><span class="title">Construction of Parallel Lines</span>
+</h3>
+<div class="para" id="subsec-construction-of-parallel-lines-2">Parallel lines are lines that are the same distance apart from each other and they will never meet.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/parallel-lines.svg" role="img" class="contained" alt="Parallel lines"></div>
+<div class="para" id="subsec-construction-of-parallel-lines-4">Lines <span class="process-math">\(AB\)</span> and <span class="process-math">\(CD\)</span> are parallel.</div>
+<article class="activity project-like" id="subsec-construction-of-parallel-lines-5"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-parallel-lines-5-1">Here ia an activity from <em class="emphasis">Math Open Reference</em> on how to construct a parallel lines using a pair of compasses and a ruler.</div>
+<div class="para" id="subsec-construction-of-parallel-lines-5-2">Click on the link:<a class="external" href="https://www.mathopenref.com/constparallel.html" target="_blank"><code class="code-inline tex2jax_ignore">https://www.mathopenref.com/constparallel.html</code></a> to access the activity.</div></article><article class="activity project-like" id="subsec-construction-of-parallel-lines-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-parallel-lines-6-1">You are provided with a GeoGebra applet. Construct parallel lines.</div>
+<div class="para" id="subsec-construction-of-parallel-lines-6-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsec-construction-of-parallel-lines-6-3"><ol class="decimal" id="subsec-construction-of-parallel-lines-6-3-1">
+<li id="subsec-construction-of-parallel-lines-6-3-1-1"><div class="para" id="subsec-construction-of-parallel-lines-6-3-1-1-1">Using the <dfn class="terminology">point tool (window 2)</dfn> in the toolbar, create two points <span class="process-math">\(A\)</span> and <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsec-construction-of-parallel-lines-6-3-1-2"><div class="para" id="subsec-construction-of-parallel-lines-6-3-1-2-1">Using the <dfn class="terminology">line tool (window 3),</dfn> create a line passing through the points <span class="process-math">\(A\)</span> and <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsec-construction-of-parallel-lines-6-3-1-3"><div class="para" id="subsec-construction-of-parallel-lines-6-3-1-3-1">Using the <dfn class="terminology">point tool (window 2),</dfn> create another point <span class="process-math">\(C\)</span> on the applet.</div></li>
+<li id="subsec-construction-of-parallel-lines-6-3-1-4"><div class="para" id="subsec-construction-of-parallel-lines-6-3-1-4-1">Using the <dfn class="terminology">parallel line tool (window 4),</dfn> create a line, parallel to <span class="process-math">\(AB\)</span> and passing through point <span class="process-math">\(C\)</span>
+</div></li>
+<li id="subsec-construction-of-parallel-lines-6-3-1-5"><div class="para" id="subsec-construction-of-parallel-lines-6-3-1-5-1">Using the <dfn class="terminology">move tool (window 1),</dfn> drag points  <span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span> and observe what happens to the line passing through point <span class="process-math">\(C.\)</span>
+</div></li>
+</ol></div>
+<figure class="figure figure-like" id="subsec-construction-of-parallel-lines-6-4"><iframe id="geogebra-Parallel-lines" width="570" height="428" src="geogebra-Parallel-lines-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.1<span class="period">.</span></span><span class="space"> </span>Parallel lines</figcaption></figure><div class="para" id="subsec-construction-of-parallel-lines-6-5">What have you discovered? Share your findings with other learners.</div></article><article class="activity project-like" id="subsec-construction-of-parallel-lines-7"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-parallel-lines-7-1-1">As an extended activity, explore on the construction of parallel lines using a ruler and a set square.</div></article></section><section class="subsection" id="subsec-construction-of-perpendicular-lines"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="space"> </span><span class="title">Construction of Perpendicular Lines</span>
+</h3>
+<div class="para" id="subsec-construction-of-perpendicular-lines-2">Perpendicular lines are lines that meet at right angle, that is, they intersect at <span class="process-math">\(90^\circ\)</span>
+</div>
+<div class="para" id="subsec-construction-of-perpendicular-lines-3">The figure below represents perpendicular lines.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/perpendicular-lines.svg" role="img" class="contained" alt="Perpendicular lines"></div>
+<div class="para" id="subsec-construction-of-perpendicular-lines-5">Lines <span class="process-math">\(PQ\)</span> and <span class="process-math">\(RS\)</span> are pependicular.</div>
+<article class="activity project-like" id="subsec-construction-of-perpendicular-lines-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-perpendicular-lines-6-1">Here ia an activity from <em class="emphasis">Math Open Reference</em> on how to construct a perpendicular lines using a pair of compasses and a ruler.</div>
+<div class="para" id="subsec-construction-of-perpendicular-lines-6-2">Click on the link to access the activity. <a class="external" href="https://www.mathopenref.com/constperplinepoint.html" target="_blank"><code class="code-inline tex2jax_ignore">https://www.mathopenref.com/constperplinepoint.html</code></a>
+</div></article><article class="activity project-like" id="subsec-construction-of-perpendicular-lines-7"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-perpendicular-lines-7-1-1">Construct perpendicular lines in the applet below.</div> <div class="para" id="subsec-construction-of-perpendicular-lines-7-1-2"><dfn class="terminology">Instructions</dfn></div> <div class="para logical" id="subsec-construction-of-perpendicular-lines-7-1-3"><ol class="decimal" id="subsec-construction-of-perpendicular-lines-7-1-3-1">
+<li id="subsec-construction-of-perpendicular-lines-7-1-3-1-1"><div class="para" id="subsec-construction-of-perpendicular-lines-7-1-3-1-1-1">Using the <dfn class="terminology">point tool (window 1)</dfn> in the toolbar, create two points <span class="process-math">\(A\)</span> and <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsec-construction-of-perpendicular-lines-7-1-3-1-2"><div class="para" id="subsec-construction-of-perpendicular-lines-7-1-3-1-2-1">Using the <dfn class="terminology">line tool (window 3),</dfn> create a line passing through the points <span class="process-math">\(A\)</span> and <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsec-construction-of-perpendicular-lines-7-1-3-1-3"><div class="para" id="subsec-construction-of-perpendicular-lines-7-1-3-1-3-1">Using the <dfn class="terminology">point tool (window 1),</dfn> create another point <span class="process-math">\(C\)</span> on the applet.</div></li>
+<li id="subsec-construction-of-perpendicular-lines-7-1-3-1-4"><div class="para" id="subsec-construction-of-perpendicular-lines-7-1-3-1-4-1">Using the <dfn class="terminology">perpendicular line tool (window 4),</dfn> create a line, perpendicular to <span class="process-math">\(AB\)</span> and passing through point <span class="process-math">\(C\)</span>
+</div></li>
+<li id="subsec-construction-of-perpendicular-lines-7-1-3-1-5"><div class="para" id="subsec-construction-of-perpendicular-lines-7-1-3-1-5-1">Using the <dfn class="terminology">move tool (window 1),</dfn> drag points  <span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span> and observe what happens to the line passing through point <span class="process-math">\(C.\)</span>
+</div></li>
+<li id="subsec-construction-of-perpendicular-lines-7-1-3-1-6"><div class="para" id="subsec-construction-of-perpendicular-lines-7-1-3-1-6-1">Using the <dfn class="terminology">angle tool (window 5),</dfn> measure the angle formed by the intersection of lines  <span class="process-math">\(AB\)</span> and the line passing through point <span class="process-math">\(C.\)</span>
+</div></li>
+</ol></div> <figure class="figure figure-like" id="subsec-construction-of-perpendicular-lines-7-1-4"><iframe id="geogebra-Perpendicular-lines" width="570" height="428" src="geogebra-Perpendicular-lines-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.2<span class="period">.</span></span><span class="space"> </span>Parallel lines</figcaption></figure> <div class="para" id="subsec-construction-of-perpendicular-lines-7-1-5">What is the measure of the angle formed by the intersection of the two lines? Discuss your findings with other learners.</div></article></section><section class="subsection" id="subsec-dividing-lines-proportionally"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="space"> </span><span class="title">Dividing lines proportionally</span>
+</h3>
+<div class="para" id="subsec-dividing-lines-proportionally-2">A line can be divided into a given number of equal parts / proportions.</div>
+<article class="activity project-like" id="subsec-dividing-lines-proportionally-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-dividing-lines-proportionally-3-1">Here is an activity on how to divide a line proportionally into 5 equal parts.</div>
+<div class="para" id="subsec-dividing-lines-proportionally-3-2">1. Draw a line <span class="process-math">\(AB\)</span> and <span class="process-math">\(AC\)</span> as shown below</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/lines.svg" role="img" class="contained" alt="Proportional division of lines"></div>
+<div class="para" id="subsec-dividing-lines-proportionally-3-4">2.  Using a pair of compasses, draw 5 arcs of equal lengths on line <span class="process-math">\(AC.\)</span>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/proportional-lines.svg" role="img" class="contained" alt="Proportional division of lines"></div>
+<div class="para" id="subsec-dividing-lines-proportionally-3-6">3. Using a set square and a ruler, draw parallel lines from arcs marked on line <span class="process-math">\(AC\)</span> to line <span class="process-math">\(AB.\)</span>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/proportional-lines-2.svg" role="img" class="contained" alt="Proportional division of lines-2"></div>
+<div class="para" id="subsec-dividing-lines-proportionally-3-8">4. Measure the distance between lines: <span class="process-math">\(AP,\, PQ,\, QR,\, RS,\, SB.\)</span> Compare and discuss your findings with other learners.</div></article></section><section class="subsection" id="subsec-angle-properties-of-polgons"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="space"> </span><span class="title">Angle Properties of Polgons</span>
+</h3>
+<div class="para" id="subsec-angle-properties-of-polgons-2">In Grade 7 you learnt about properties of angles in a polygon; number of sides of polygons, interior angles of the polygons and the relationship between sides of polygons and interior angles.</div>
+<div class="para" id="subsec-angle-properties-of-polgons-3">Here is a summary of what you learned from Grade 7</div>
+<div class="para" id="subsec-angle-properties-of-polgons-4"><dfn class="terminology">In order to find Number of right angles and the sum of interior angles of any polygon:</dfn></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-5"><ol class="decimal" id="subsec-angle-properties-of-polgons-5-1">
+<li id="subsec-angle-properties-of-polgons-5-1-1"><div class="para" id="subsec-angle-properties-of-polgons-5-1-1-1">Identify the number of sides (<span class="process-math">\(n\)</span>) of the regular polygon.</div></li>
+<li id="subsec-angle-properties-of-polgons-5-1-2"><div class="para" id="subsec-angle-properties-of-polgons-5-1-2-1">Work out how many triangles could be created within the polygon by drawing lines from a single vertex to all the other vertices</div></li>
+<li id="subsec-angle-properties-of-polgons-5-1-3"><div class="para" id="subsec-angle-properties-of-polgons-5-1-3-1">Multiply the number of triangles in the polygon by <span class="process-math">\(180^\circ\)</span> to find the sum of the interior angles of the polygon.</div></li>
+</ol></div>
+<article class="activity project-like" id="subsec-angle-properties-of-polgons-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-angle-properties-of-polgons-6-1-1">Copy and fill in the table below.</div> <figure class="table table-like" id="subsec-angle-properties-of-polgons-6-1-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.3<span class="period">.</span></span><span class="space"> </span><dfn class="terminology">Angle properties of regular polygons</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t2 lines">Number of sides (n)</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Number of right triangles</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Sum of interior angles</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">3</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">4</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">5</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">6</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">7</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">8</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">9</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">10</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure> <div class="para" id="subsec-angle-properties-of-polgons-6-1-3">Discuss and share your results with other learners.</div></article><article class="example example-like" id="subsec-angle-properties-of-polgons-7"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-angle-properties-of-polgons-7-1-1">Find the value of uknown angles marked in letters in the figure below.</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/polygon.svg" role="img" class="contained" alt=""></div>
+<div class="solutions"><details id="subsec-angle-properties-of-polgons-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-angle-properties-of-polgons-7-2-1">
+<span class="process-math">\(50^\circ, 60^\circ\)</span> and <span class="process-math">\(y\)</span> are exterior angles. There sum of interior angle and its corresponding exterior angle is <span class="process-math">\(180^\circ.\)</span>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-2">
+<div class="para">Therefore:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+50^\circ + x = 180^\circ
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-3"><div class="displaymath process-math">
+\begin{equation*}
+x = 180^\circ - 50^\circ
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-4"><div class="displaymath process-math">
+\begin{equation*}
+x = 130^\circ
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-angle-properties-of-polgons-7-2-5">The corresponding interior angle for angle <span class="process-math">\(60^\circ\)</span> is:</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-6"><div class="displaymath process-math">
+\begin{equation*}
+180^\circ - 60^\circ = 120^\circ
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-angle-properties-of-polgons-7-2-7">To find the corresponding interior angle for <span class="process-math">\(y,\)</span> in the pentagon, you know that interior angles in a pentagon add up to <span class="process-math">\(540^\circ.\)</span>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-8">
+<div class="para">Therefore:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+90^\circ + 90^\circ + 120^\circ + 130^\circ + (\text{ corresponding interior angle for }y) = 540^\circ.
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-9"><div class="displaymath process-math">
+\begin{equation*}
+430^\circ + \text{ corresponding interior angle for }y = 540^\circ
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-10"><div class="displaymath process-math">
+\begin{equation*}
+\text{ corresponding interior angle for } y = 540^\circ - 430^\circ
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-11"><div class="displaymath process-math">
+\begin{equation*}
+\text{ corresponding interior angle for } y = 110^\circ 
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-angle-properties-of-polgons-7-2-12">Since we have found the corresponding interior angle for <span class="process-math">\(y,\)</span> to find the exterior angle <span class="process-math">\(y,\)</span> we take;</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-13"><div class="displaymath process-math">
+\begin{equation*}
+y = 180^\circ - \text{ corresponding interior angle for } y 
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-14"><div class="displaymath process-math">
+\begin{equation*}
+y = 180^\circ - 110^\circ
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-7-2-15"><div class="displaymath process-math">
+\begin{equation*}
+y = 70^\circ
+\end{equation*}
+</div></div>
+</div></details></div></article><article class="example example-like" id="subsec-angle-properties-of-polgons-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-angle-properties-of-polgons-8-1-1">Find the number of sides(n) of a regular polygon when all the interior angles of the polygon are <span class="process-math">\(135^\circ\)</span>
+</div>
+<div class="solutions"><details id="subsec-angle-properties-of-polgons-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-angle-properties-of-polgons-8-2-1"><dfn class="terminology">Method 1</dfn></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-2">
+<div class="para">We can find the number if sides of a polygon from the given formula:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Exterior angle of the polygon }= \frac{360^\circ}{n}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-3">
+<div class="para">First find the exterior angle of the polygon as shown:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Exterior angle of the polygon } = 180^\circ - \text{interior angle of the polygon}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-4">
+<div class="para">Therefore:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Exterior angle of the polygon } = 180^\circ - 140^\circ 
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-5"><div class="displaymath process-math">
+\begin{equation*}
+\text{Exterior angle of the polygon } = 40^\circ
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-6">
+<div class="para">Thus, using this formula:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Exterior angle of the polygon }= \frac{360^\circ}{n}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-7"><div class="displaymath process-math">
+\begin{equation*}
+40^\circ = \frac{360^\circ}{n}
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-8"><div class="displaymath process-math">
+\begin{equation*}
+n = \frac{360^\circ}{40^\circ}
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-angle-properties-of-polgons-8-2-9">Therefore; <span class="process-math">\(n = 9 \)</span>
+</div>
+<div class="para" id="subsec-angle-properties-of-polgons-8-2-10"><dfn class="terminology">Method 2</dfn></div>
+<div class="para" id="subsec-angle-properties-of-polgons-8-2-11">Alternatively, we can find the number of sides of the polygon as shown below:</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-12"><div class="displaymath process-math">
+\begin{equation*}
+\text{ Sum of interior angles = Size of interior angle } \times \text{n}
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-13"><div class="displaymath process-math">
+\begin{equation*}
+\text{ Sum of interior angles } = 140^\circ \times{n} = 140n
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-angle-properties-of-polgons-8-2-14">Also, sum of interior angles can be given by multiplying <span class="process-math">\(180^\circ\)</span> by the number of trialgles <span class="process-math">\((n - 2)\)</span> in the polygon.</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-15"><div class="displaymath process-math">
+\begin{equation*}
+180^\circ(n-2)
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-16">
+<div class="para">Therefore:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+180^\circ(n-2) = 140n
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+180n - 360 = 140n
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-17">
+<div class="para">Collecting like terms, we get:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+180n - 140n = 360
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-18"><div class="displaymath process-math">
+\begin{equation*}
+40n = 360
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-19"><div class="displaymath process-math">
+\begin{equation*}
+n = \frac{360}{40}
+\end{equation*}
+</div></div>
+<div class="para logical" id="subsec-angle-properties-of-polgons-8-2-20"><div class="displaymath process-math">
+\begin{equation*}
+n = 9
+\end{equation*}
+</div></div>
+</div></details></div></article></section><section class="subsection" id="subsec-construction-of-regular-polygons"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.6</span><span class="space"> </span><span class="title">Construction of Regular Polygons</span>
+</h3>
+<section class="introduction" id="subsec-construction-of-regular-polygons-2"><div class="para" id="subsec-construction-of-regular-polygons-2-1">In construction of regular polygons, you shall be using GeoGebra platform with step by step guides for each polygon</div></section><section class="subsubsection" id="subsubsec-Construction-of-a-triangle"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.6.1</span><span class="space"> </span><span class="title">Construction of a Triangle</span>
+</h4>
+<article class="activity project-like" id="subsubsec-Construction-of-a-triangle-2"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.8</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-Construction-of-a-triangle-2-1">This activity involves constructing an equilateral triangle, that is, a triangle with sides of equal lengths.</div>
+<div class="para" id="subsubsec-Construction-of-a-triangle-2-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsubsec-Construction-of-a-triangle-2-3"><ol class="decimal" id="subsubsec-Construction-of-a-triangle-2-3-1">
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-1"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-1-1">Select <dfn class="terminology">point tool (Window 1),</dfn> create points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> on the applet.</div></li>
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-2"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-2-1">Select <dfn class="terminology">segment tool (Window 5),</dfn> draw a segment by clicking on point <span class="process-math">\(A\)</span> then <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-3"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-3-1">Select <dfn class="terminology">compass tool (Window 3)</dfn>. Then click on point <span class="process-math">\(A\)</span> and point <span class="process-math">\(B\)</span> (It represents how wide the compass is) and again on point <span class="process-math">\(A\)</span> (It represents the sharp end of the compass). Then click on <span class="process-math">\(B\)</span> and <span class="process-math">\(A\)</span> (It represents the width  opening of the compass) and again on <span class="process-math">\(B\)</span> (It represents the sharp end of the compass).</div></li>
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-4"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-4-1">Select <dfn class="terminology">intersect tool (Window 4),</dfn> and mark a point <span class="process-math">\(c\text{,}\)</span>  at the point of intersection of the two circles.</div></li>
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-5"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-5-1">Select <dfn class="terminology">segment tool (Window 5),</dfn> and draw  line segments using points <span class="process-math">\(BC\)</span>and <span class="process-math">\(AC.\)</span>
+</div></li>
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-6"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-6-1">Hide the two circles by selecting the <dfn class="terminology">show/hide object tool (Window 6)</dfn> and then click on the circles.</div></li>
+<li id="subsubsec-Construction-of-a-triangle-2-3-1-7"><div class="para" id="subsubsec-Construction-of-a-triangle-2-3-1-7-1">Move points <span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span> and observe what happens to your triangle.</div></li>
+</ol></div>
+<figure class="figure figure-like" id="subsubsec-Construction-of-a-triangle-2-4"><iframe id="geogebra-equilateral-triangle" width="570" height="428" src="geogebra-equilateral-triangle-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.6<span class="period">.</span></span><span class="space"> </span>Equilateral triangle</figcaption></figure><div class="para" id="subsubsec-Construction-of-a-triangle-2-5">Share your findings from the activity above with your fellow learneres.</div></article></section><section class="subsubsection" id="subsubsec-Square"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.6.2</span><span class="space"> </span><span class="title">Construction of a Square</span>
+</h4>
+<article class="activity project-like" id="subsubsec-Square-2"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.9</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-Square-2-1">Construct a square in the applet below using the following instructions.</div>
+<div class="para" id="subsubsec-Square-2-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsubsec-Square-2-3"><ol class="decimal" id="subsubsec-Square-2-3-1">
+<li id="subsubsec-Square-2-3-1-1"><div class="para" id="subsubsec-Square-2-3-1-1-1">Select <dfn class="terminology">point tool (Window 1),</dfn> create points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> on the applet.</div></li>
+<li id="subsubsec-Square-2-3-1-2"><div class="para" id="subsubsec-Square-2-3-1-2-1">Select <dfn class="terminology">segment tool (Window 6),</dfn> draw a segment by clicking on point <span class="process-math">\(A\)</span> then <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsubsec-Square-2-3-1-3"><div class="para" id="subsubsec-Square-2-3-1-3-1">Select <dfn class="terminology">compass tool (Window 3)</dfn>. Click on point <span class="process-math">\(A\)</span> and point <span class="process-math">\(B\)</span> (It represents how wide the compass is) and again on point <span class="process-math">\(A.\)</span> Then click on point <span class="process-math">\(B\)</span> followed by <span class="process-math">\(A\)</span> and  again on point <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsubsec-Square-2-3-1-4"><div class="para" id="subsubsec-Square-2-3-1-4-1">Select <dfn class="terminology">intersect tool (Window 5),</dfn> and  click on the two circles one at a time to mark points of intersection of the two circles, <span class="process-math">\(C\)</span> and <span class="process-math">\(D\)</span> respectively.</div></li>
+<li id="subsubsec-Square-2-3-1-5"><div class="para" id="subsubsec-Square-2-3-1-5-1">Select <dfn class="terminology">line tool (Window 4)</dfn> and click on point <span class="process-math">\(C\)</span> and then <span class="process-math">\(D\)</span> to construct a line perpendicular to the segment <span class="process-math">\(AB.\)</span>
+</div></li>
+<li id="subsubsec-Square-2-3-1-6"><div class="para" id="subsubsec-Square-2-3-1-6-1">Select <dfn class="terminology">intersect tool (Window 5).</dfn> Click on segment <span class="process-math">\(AB\)</span> and the perpendicular line passing trough points <span class="process-math">\(C\)</span>and <span class="process-math">\(D\)</span> to mark a  their point of intersection <span class="process-math">\(E.\)</span>
+</div></li>
+<li id="subsubsec-Square-2-3-1-7"><div class="para" id="subsubsec-Square-2-3-1-7-1">Select <dfn class="terminology">compass tool (Window 3).</dfn> Click on point <span class="process-math">\(E.\)</span> then <span class="process-math">\(B\)</span> and again on point <span class="process-math">\(E\)</span> to draw a circle with center <span class="process-math">\(E\)</span> and its circumference touching points <span class="process-math">\(A\)</span> and <span class="process-math">\(B.\)</span>
+</div></li>
+<li id="subsubsec-Square-2-3-1-8"><div class="para" id="subsubsec-Square-2-3-1-8-1">Select <dfn class="terminology">intersect tool (Window 5),</dfn> and mark points <span class="process-math">\(F\)</span> and <span class="process-math">\(G\)</span> respectively, at the point of intersection of the circle and perpendicular line  passing through points <span class="process-math">\(C\)</span> and <span class="process-math">\(D.\)</span>
+</div></li>
+<li id="subsubsec-Square-2-3-1-9"><div class="para" id="subsubsec-Square-2-3-1-9-1">Select <dfn class="terminology">segment tool (Window 6)</dfn> and draw the line segments <span class="process-math">\(AF, FB, BG \text { and } GA\)</span> to constuct a square.</div></li>
+<li id="subsubsec-Square-2-3-1-10"><div class="para" id="subsubsec-Square-2-3-1-10-1">Select the <dfn class="terminology">show/hide object tool (Window 8)</dfn> and hide all objects, leaving only the square.</div></li>
+<li id="subsubsec-Square-2-3-1-11"><div class="para" id="subsubsec-Square-2-3-1-11-1">Select the <dfn class="terminology">move tool (Window 7)</dfn>  Move point <span class="process-math">\(A\)</span> or <span class="process-math">\(B.\)</span> What can you see? Is the quadrilateral a square?</div></li>
+</ol></div>
+<figure class="figure figure-like" id="subsubsec-Square-2-4"><iframe id="geogebra-square" width="570" height="428" src="geogebra-square-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.7<span class="period">.</span></span><span class="space"> </span>Square</figcaption></figure><div class="para" id="subsubsec-Square-2-5">Discuss your findings with other learners.</div></article></section><section class="subsubsection" id="subsubsec-Hexagon"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.6.3</span><span class="space"> </span><span class="title">Construction of a Regular Hexagon</span>
+</h4>
+<div class="para" id="subsubsec-Hexagon-2">A regular hexagon has six sides with equal lengths and equal interior angles.</div>
+<article class="activity project-like" id="subsubsec-Hexagon-3"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.10</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-Hexagon-3-1">Here is a step by step activity to explore on construction of a regular hexagon created by <dfn class="terminology">Simona Riva</dfn> in Geogebra.</div>
+<figure class="figure figure-like" id="subsubsec-Hexagon-3-2"><iframe id="geogebra-regular-hexagon-illustration" width="660" height="495" src="geogebra-regular-hexagon-illustration-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.8<span class="period">.</span></span><span class="space"> </span>Regular Hexagon</figcaption></figure></article><article class="activity project-like" id="subsubsec-Hexagon-4"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.11</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-Hexagon-4-1">Using the illustrations from the activity above, construct your hexagon.</div>
+<figure class="figure figure-like" id="subsubsec-Hexagon-4-2"><iframe id="geogebra-regular-hexagon" width="570" height="428" src="geogebra-regular-hexagon-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.9<span class="period">.</span></span><span class="space"> </span>Regular Hexagon</figcaption></figure></article></section></section><section class="subsection" id="subsec-construction-of-irregular-polygons"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.7</span><span class="space"> </span><span class="title">Construction of Irregular Polygons</span>
+</h3>
+<section class="introduction" id="subsec-construction-of-irregular-polygons-2"><div class="para" id="subsec-construction-of-irregular-polygons-2-1">An irregular polygon does not have equal sides and equal angles.</div></section><section class="subsubsection" id="subsubsec-construction-of-irregular-triangle"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.7.1</span><span class="space"> </span><span class="title">Construction of Irregular Triangles</span>
+</h4>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-2">There are different types of irregular triangles namely: isosceles, scalene and right triangle.</div>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-3"><dfn class="terminology">Properties of isoscles triangle.</dfn></div>
+<div class="para logical" id="subsubsec-construction-of-irregular-triangle-4"><ol class="decimal" id="subsubsec-construction-of-irregular-triangle-4-1">
+<li id="subsubsec-construction-of-irregular-triangle-4-1-1"><div class="para" id="subsubsec-construction-of-irregular-triangle-4-1-1-1">Only two sides are equal in length.</div></li>
+<li id="subsubsec-construction-of-irregular-triangle-4-1-2"><div class="para" id="subsubsec-construction-of-irregular-triangle-4-1-2-1">Opposite angles of the triangle are equal.</div></li>
+<li id="subsubsec-construction-of-irregular-triangle-4-1-3"><div class="para" id="subsubsec-construction-of-irregular-triangle-4-1-3-1">The sum of the angles add up to <span class="process-math">\(180^\circ.\)</span>
+</div></li>
+</ol></div>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-5"><dfn class="terminology">Properties of scalene triangle.</dfn></div>
+<div class="para logical" id="subsubsec-construction-of-irregular-triangle-6"><ol class="decimal" id="subsubsec-construction-of-irregular-triangle-6-1">
+<li id="subsubsec-construction-of-irregular-triangle-6-1-1"><div class="para" id="subsubsec-construction-of-irregular-triangle-6-1-1-1">All the three sides have different length.</div></li>
+<li id="subsubsec-construction-of-irregular-triangle-6-1-2"><div class="para" id="subsubsec-construction-of-irregular-triangle-6-1-2-1">All the angles have different sizes.</div></li>
+<li id="subsubsec-construction-of-irregular-triangle-6-1-3"><div class="para" id="subsubsec-construction-of-irregular-triangle-6-1-3-1">The sum of the angles add up to <span class="process-math">\(180^\circ.\)</span>
+</div></li>
+</ol></div>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-7"><dfn class="terminology">Properties of right triangle.</dfn></div>
+<div class="para logical" id="subsubsec-construction-of-irregular-triangle-8"><ol class="decimal" id="subsubsec-construction-of-irregular-triangle-8-1">
+<li id="subsubsec-construction-of-irregular-triangle-8-1-1"><div class="para" id="subsubsec-construction-of-irregular-triangle-8-1-1-1">The sides are not equal in length.</div></li>
+<li id="subsubsec-construction-of-irregular-triangle-8-1-2"><div class="para" id="subsubsec-construction-of-irregular-triangle-8-1-2-1">One of the angle measures  <span class="process-math">\(90^\circ.\)</span>
+</div></li>
+<li id="subsubsec-construction-of-irregular-triangle-8-1-3"><div class="para" id="subsubsec-construction-of-irregular-triangle-8-1-3-1">The sum of the angles add up to <span class="process-math">\(180^\circ\)</span>
+</div></li>
+</ol></div>
+<article class="activity project-like" id="subsubsec-construction-of-irregular-triangle-9"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.12</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-9-1">Here is an activity on the construction of an isosceles triangle by created by <dfn class="terminology">Simona Riva</dfn> in Geogebra.</div>
+<figure class="figure figure-like" id="subsubsec-construction-of-irregular-triangle-9-2"><iframe id="geogebra-isosceles-triangle" width="570" height="428" src="geogebra-isosceles-triangle-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.10<span class="period">.</span></span><span class="space"> </span>Isoscles triangle</figcaption></figure></article><article class="activity project-like" id="subsubsec-construction-of-irregular-triangle-10"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.13</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-10-1">Construct scalene triangle and right angle triangle using the applet provided below.</div>
+<div class="para" id="subsubsec-construction-of-irregular-triangle-10-2">Use the sliders to adjust the length <span class="process-math">\(AB,\, \angle\, A \text{ and } \angle C\)</span> with respect to the type of triangle you are constructing.</div>
+<figure class="figure figure-like" id="subsubsec-construction-of-irregular-triangle-10-3"><iframe id="geogebra-triangle" width="570" height="428" src="geogebra-triangle-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.11<span class="period">.</span></span><span class="space"> </span>Created by <dfn class="terminology">Simona Riva</dfn> in Geogebra.</figcaption></figure><div class="para" id="subsubsec-construction-of-irregular-triangle-10-4">Discuss your results on the scalene and right triangle with other learners.</div></article></section><section class="subsubsection" id="subsubsec-Construction-of-rhombus"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.7.2</span><span class="space"> </span><span class="title">Construction of a Rhombus</span>
+</h4>
+<article class="activity project-like" id="subsubsec-Construction-of-rhombus-2"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.14</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-Construction-of-rhombus-2-1">Follow the instruction below and construct a rhombus.</div>
+<div class="para" id="subsubsec-Construction-of-rhombus-2-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsubsec-Construction-of-rhombus-2-3"><ol class="decimal" id="subsubsec-Construction-of-rhombus-2-3-1">
+<li id="subsubsec-Construction-of-rhombus-2-3-1-1"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-1-1">Select <dfn class="terminology">point tool (Window 1),</dfn> create points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> on the applet.</div></li>
+<li id="subsubsec-Construction-of-rhombus-2-3-1-2"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-2-1">Select <dfn class="terminology">compass tool (Window 3)</dfn>. Then click on point <span class="process-math">\(A\)</span> and point <span class="process-math">\(B\)</span> and again on point <span class="process-math">\(A\)</span> to construct a circle. Then click on <span class="process-math">\(B\)</span> and <span class="process-math">\(A\)</span> again on <span class="process-math">\(B\)</span> to construct another circle.</div></li>
+<li id="subsubsec-Construction-of-rhombus-2-3-1-3"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-3-1">Select <dfn class="terminology">intersect tool (Window 5),</dfn> click on the two circles to mark the point of intersection of the circles</div></li>
+<li id="subsubsec-Construction-of-rhombus-2-3-1-4"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-4-1">Select <dfn class="terminology">segment tool (Window 6),</dfn> and draw  line segments <span class="process-math">\(AD,\, DB,\,  BC \text{ and } CA\)</span> to construct a rhombus.</div></li>
+<li id="subsubsec-Construction-of-rhombus-2-3-1-5"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-5-1">Hide the circles by selecting the <dfn class="terminology">show/hide object tool (Window 8)</dfn> and then click on the circles.</div></li>
+<li id="subsubsec-Construction-of-rhombus-2-3-1-6"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-6-1">Select the <dfn class="terminology">angle tool (Window)</dfn> and measure  in the rhombus angles</div></li>
+<li id="subsubsec-Construction-of-rhombus-2-3-1-7"><div class="para" id="subsubsec-Construction-of-rhombus-2-3-1-7-1">Select <dfn class="terminology">move tool (Window 7)</dfn> and move points <span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span> and observe what happens to your rhombus.</div></li>
+</ol></div>
+<figure class="figure figure-like" id="subsubsec-Construction-of-rhombus-2-4"><iframe id="geogebra-rhombus" width="570" height="428" src="geogebra-rhombus-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.12<span class="period">.</span></span><span class="space"> </span>Rhombus</figcaption></figure></article></section><section class="subsubsection" id="subsubsec-Construction-of-irregular-pentagon"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.7.3</span><span class="space"> </span><span class="title">Construction of Irregular Pentagon</span>
+</h4>
+<article class="activity project-like" id="subsubsec-Construction-of-irregular-pentagon-2"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.15</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-1">Construct an irregular hexagon using the following instructions. You have been provided with a segment <span class="process-math">\(AB\)</span> measuring <span class="process-math">\(8 cm.\)</span>
+</div>
+<div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsubsec-Construction-of-irregular-pentagon-2-3"><ol class="decimal" id="subsubsec-Construction-of-irregular-pentagon-2-3-1">
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-1"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-1-1">Measure <span class="process-math">\(\angle\, 120^\circ\)</span> at <span class="process-math">\(B\)</span> by selecting on the <dfn class="terminology">Angle with given size tool (Window 3),</dfn> then click on point <span class="process-math">\(A\)</span> and <span class="process-math">\(B.\)</span>  On the pop-up window, input angle size as <span class="process-math">\(120^\circ\)</span> and click on <dfn class="terminology">clockwise</dfn> then <dfn class="terminology">OK.</dfn> This will construct an angle <span class="process-math">\(ABA'.\)</span> Select on the <dfn class="terminology">line tool (Window 6)</dfn> to construct a line through <span class="process-math">\(BA'.\)</span>
+</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-2"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-2-1">Select on the <dfn class="terminology">circle with given radius tool (Window 8).</dfn> Click on point <span class="process-math">\(B\)</span> and on the pop-up window, input the radius as <span class="process-math">\(8\)</span> then click <dfn class="terminology">OK.</dfn> This creates a circle with centre <span class="process-math">\(B\)</span> and radis <span class="process-math">\(8\, cm.\)</span> Select the <dfn class="terminology">intersect tool (Window 7)</dfn> and click at the point of intersection <dfn class="terminology">C</dfn> of the circle with the line <span class="process-math">\(BA'.\)</span> The distance <span class="process-math">\(BC\)</span> measures <span class="process-math">\(8\, cm\)</span> which is the radius of the circle.</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-3"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-3-1">Measure an angle <span class="process-math">\(140^\circ\)</span> at <span class="process-math">\(C\)</span> by selecting on the <dfn class="terminology">Angle with given size tool (Window 3),</dfn> then click on point <span class="process-math">\(B\)</span> and <span class="process-math">\(C.\)</span>  On the pop-up window, input angle size as <span class="process-math">\(140^\circ\)</span> and click on <dfn class="terminology">clockwise</dfn> then <dfn class="terminology">OK.</dfn> This will construct an angle <span class="process-math">\(BCB'.\)</span> Select on the <dfn class="terminology">line tool (Window 6)</dfn> to construct a line through <span class="process-math">\(CB'.\)</span>
+</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-4"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-4-1">Select on the <dfn class="terminology">circle with given radius tool (Window 8).</dfn> Click on point <span class="process-math">\(C\)</span> and on the pop-up window, input the radius as <span class="process-math">\(5\)</span> then click <dfn class="terminology">OK.</dfn> This creates a circle with centre <span class="process-math">\(C\)</span> and radis <span class="process-math">\(5\, cm.\)</span> Select the <dfn class="terminology">intersect tool (Window 7)</dfn> and click at the point of intersection <dfn class="terminology">D</dfn> of the circle with the line <span class="process-math">\(CB'.\)</span> The distance <span class="process-math">\(CD\)</span> measures <span class="process-math">\(5\, cm\)</span> which is the radius of the circle.</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-5"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-5-1">Measure <span class="process-math">\(\angle\, 110^\circ\)</span> at <span class="process-math">\(A\)</span> by selecting on the <dfn class="terminology">Angle with given size tool (Window 3),</dfn> then click on point <span class="process-math">\(B\)</span> and <span class="process-math">\(A.\)</span>  On the pop-up window, input angle size as <span class="process-math">\(110^\circ\)</span> and click on <dfn class="terminology">counterclockwise</dfn> then <dfn class="terminology">OK.</dfn> This will construct an angle <span class="process-math">\(BAB'_{1}.\)</span> Select on the <dfn class="terminology">line tool (Window 6)</dfn> to construct a line through <span class="process-math">\(AB'_{1}.\)</span>
+</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-6"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-6-1">Select on the <dfn class="terminology">circle with given radius tool (Window 8).</dfn> Click on point <span class="process-math">\(A\)</span> and on the pop-up window, input the radius as <span class="process-math">\(7\)</span> then click <dfn class="terminology">OK.</dfn> This creates a circle with centre <span class="process-math">\(A\)</span> and radius <span class="process-math">\(7\, cm.\)</span> Select the <dfn class="terminology">intersect tool (Window 7)</dfn> and click at the point of intersection <dfn class="terminology">E</dfn> of the circle with the line <span class="process-math">\(AB'_{1}.\)</span> The distance <span class="process-math">\(AE\)</span> measures <span class="process-math">\(7\, cm\)</span> which is the radius of the circle.</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-7"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-7-1">select the <dfn class="terminology">hide/show label tool (Window 9)</dfn> and click on the lines <span class="process-math">\(AB,\, BA',\, CB' \text{ and } AB'_{1}\)</span> to hide the lines. Also click on the points <span class="process-math">\(A',\, B' \text{ and }B'_{1}\)</span> to hide them.</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-8"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-8-1">Select on the <dfn class="terminology">segment tool (Window 2)</dfn> and draw segments <span class="process-math">\(AB,\, BC,\,BD,\,DE \text{ and } EA\)</span> to form an irregular pentagon.</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-9"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-9-1">Select on <dfn class="terminology">angle tool (Window 5)</dfn> and click on points <span class="process-math">\(E,\, D,\, C\)</span> to measure the size of <span class="process-math">\(\angle EDC.\)</span> Click on points <span class="process-math">\(A,\, E,\, D\)</span> to measure the size of <span class="process-math">\(\angle AED.\)</span>
+</div></li>
+<li id="subsubsec-Construction-of-irregular-pentagon-2-3-1-10"><div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-3-1-10-1">Right click on the segments and click on settings. Then click on  <dfn class="terminology">Show label</dfn> and on the drop down arrow select <dfn class="terminology">Value.</dfn> This will display the length of the segment. Repeat this to all the other segments in your pentagon.</div></li>
+</ol></div>
+<div class="para" id="subsubsec-Construction-of-irregular-pentagon-2-4">What is the measure of <span class="process-math">\(DE,\, EA,\, \angle AED \text{ and } \angle EDC.\)</span> Share your findings with other learners.</div>
+<figure class="figure figure-like" id="subsubsec-Construction-of-irregular-pentagon-2-5"><iframe id="geogebra-pentagon" width="570" height="428" src="geogebra-pentagon-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.13<span class="period">.</span></span><span class="space"> </span>Pentagon</figcaption></figure></article></section></section><section class="subsection" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.8</span><span class="space"> </span><span class="title">Construction of a Circle Touching the Vertices of a Triangle</span>
+</h3>
+<div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-2">A circle touching the vertices (corners) of a triangle is called <dfn class="terminology">circumscribed circle.</dfn>
+</div>
+<article class="activity project-like" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-1">Construct a circumscribed circle for the given triangle. Follow the instructions below.</div>
+<div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3"><ol class="decimal" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1">
+<li id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-1"><div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-1-1">Select the <dfn class="terminology">perpendicular bisector tool (Window 3)</dfn> and click on the points <span class="process-math">\(A \text { and } B\)</span> to construct a perpendicular line cutting through segment <span class="process-math">\(AB\)</span>
+</div></li>
+<li id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-2"><div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-2-1">Click on the points <span class="process-math">\(A \text { and } C\)</span> to construct another perpendicular line cutting through segment <span class="process-math">\(AC.\)</span>
+</div></li>
+<li id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-3"><div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-3-1">Select <dfn class="terminology">intersect tool (Window 2)</dfn> and mark the point of intersection <span class="process-math">\(D,\)</span>of the two perpendicular lines.</div></li>
+<li id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-4"><div class="para" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-3-1-4-1">Select <dfn class="terminology">circle with center tool (Window 4)</dfn> and click at points <span class="process-math">\(D\)</span> and  <span class="process-math">\(A\)</span> to construct the circle.</div></li>
+</ol></div>
+<figure class="figure figure-like" id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle-3-4"><iframe id="geogebra-Circumscribed-circle" width="570" height="428" src="geogebra-Circumscribed-circle-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.14<span class="period">.</span></span><span class="space"> </span>Circumscribed circle</figcaption></figure></article></section><section class="subsection" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.9</span><span class="space"> </span><span class="title">Construction of a Circle Touching the Sides of a Triangle</span>
+</h3>
+<div class="para" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-2">A circle touching the sides (faces) of a triangle is called an <dfn class="terminology">incircle.</dfn>
+</div>
+<article class="activity project-like" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-1">Construct an incircle for the given triangle. Follow the instructions below.</div>
+<div class="para" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-2"><dfn class="terminology">Instructions</dfn></div>
+<div class="para logical" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3"><ol class="decimal" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1">
+<li id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1-1"><div class="para" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1-1-1">Select the <dfn class="terminology">angle bisector tool (Window 4)</dfn> and click on the points <span class="process-math">\(B,\, A,\, C\)</span> to bisect the angle <span class="process-math">\(BAC\)</span> Then click points <span class="process-math">\(B,\, C,\, A\,\)</span> to bisect the angle <span class="process-math">\(BCA.\)</span>
+</div></li>
+<li id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1-2"><div class="para" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1-2-1">Select <dfn class="terminology">intersect tool (Window 2)</dfn> and mark the point of intersection <span class="process-math">\(D,\)</span> of the two angle bisectors lines. Then click on another point of intersection <span class="process-math">\(E\)</span> of the angle bisector with either segment <span class="process-math">\(BC\)</span> or <span class="process-math">\(AB\)</span>
+</div></li>
+<li id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1-3"><div class="para" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-3-1-3-1">Select <dfn class="terminology">circle with center tool (Window 3)</dfn> and click at points <span class="process-math">\(D\)</span> and  <span class="process-math">\(E\)</span> to construct the circle.</div></li>
+</ol></div>
+<figure class="figure figure-like" id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle-3-4"><iframe id="geogebra-incircle" width="570" height="428" src="geogebra-incircle-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.15<span class="period">.</span></span><span class="space"> </span>Incircle</figcaption></figure></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-Geometry.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-coordinates_and_graphs.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
