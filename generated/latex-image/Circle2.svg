@@ -20,8 +20,8 @@
 <use data-text="5" xlink:href="#font_1_2" transform="matrix(11.95544,0,0,-11.9552,108.6738,106.227008)"/>
 <use data-text="c" xlink:href="#font_2_2" transform="matrix(11.95544,0,0,-11.9552,116.51994,106.227008)"/>
 <use data-text="m" xlink:href="#font_2_3" transform="matrix(11.95544,0,0,-11.9552,121.55319,106.227008)"/>
-<use data-text="0" xlink:href="#font_3_121" transform="matrix(11.95536,0,0,-11.95512,83.898128,130.3054)" fill="#0000ff"/>
-<use data-text="(" xlink:href="#font_3_85" transform="matrix(11.95536,0,0,-11.95512,78.171009,9.550407)" fill="#0000ff"/>
-<use data-text="b" xlink:href="#font_3_35" transform="matrix(11.95536,0,0,-11.95512,83.515048,9.550407)" fill="#0000ff"/>
-<use data-text=")" xlink:href="#font_3_86" transform="matrix(11.95536,0,0,-11.95512,91.15451,9.550407)" fill="#0000ff"/>
+<use data-text="0" xlink:href="#font_3_121" transform="matrix(11.95536,0,0,-11.95512,83.898128,130.3054)"/>
+<use data-text="(" xlink:href="#font_3_85" transform="matrix(11.95536,0,0,-11.95512,78.171009,9.550407)"/>
+<use data-text="b" xlink:href="#font_3_35" transform="matrix(11.95536,0,0,-11.95512,83.515048,9.550407)"/>
+<use data-text=")" xlink:href="#font_3_86" transform="matrix(11.95536,0,0,-11.95512,91.15451,9.550407)"/>
 </svg>

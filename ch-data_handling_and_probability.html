@@ -9,11 +9,13 @@
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Data Handling and Probability</title>
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="You">
+<meta property="book:author" content="Joseph Baya Karisa">
+<meta property="book:author" content="You">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -69,52 +71,248 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="My Great Book">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="You">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="You">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
-<!--** Runestone components to run locally in reader's browser **-->
-<!--** No external communication:                              **-->
-<!--**     log level is 0, Runestone Services are disabled     **-->
-<script type="text/javascript">
-eBookConfig = {};
-eBookConfig.useRunestoneServices = false;
-eBookConfig.host = 'http://127.0.0.1:8000';
-eBookConfig.course = 'PTX_Course_Title_Here';
-eBookConfig.basecourse = 'PTX_Base_Course';
-eBookConfig.isLoggedIn = false;
-eBookConfig.email = '';
-eBookConfig.isInstructor = false;
-eBookConfig.logLevel = 0;
-eBookConfig.username = '';
-eBookConfig.readings = null;
-eBookConfig.activities = null;
-eBookConfig.downloadsEnabled = false;
-eBookConfig.allow_pairs = false;
-eBookConfig.enableScratchAC = false;
-eBookConfig.build_info = "";
-eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.16';
-eBookConfig.jobehost = '';
-eBookConfig.proxyuri_runs = '';
-eBookConfig.proxyuri_files = '';
-eBookConfig.enable_chatcodes =  false;
-</script>
-<!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a0c870bab402ccbf.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97de40e034b535c5.css">
-<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec-representing-integers-on-a-number-line-3-1-1-1 { counter-set: subsec-representing-integers-on-a-number-line-3-1-1-1 0; }
+#subsec-representing-integers-on-a-number-line-3-1-1-1 > li::marker { content: ""counter(subsec-representing-integers-on-a-number-line-3-1-1-1,lower-alpha)")"; }
+#subsec-representing-integers-on-a-number-line-3-1-1-1 > li { counter-increment: subsec-representing-integers-on-a-number-line-3-1-1-1; }
+#subsec-addition-of-integers-3-1-2-1 { counter-set: subsec-addition-of-integers-3-1-2-1 0; }
+#subsec-addition-of-integers-3-1-2-1 > li::marker { content: ""counter(subsec-addition-of-integers-3-1-2-1,lower-alpha)")"; }
+#subsec-addition-of-integers-3-1-2-1 > li { counter-increment: subsec-addition-of-integers-3-1-2-1; }
+#subsec-addition-of-integers-3-2-1-1 { counter-set: subsec-addition-of-integers-3-2-1-1 0; }
+#subsec-addition-of-integers-3-2-1-1 > li::marker { content: ""counter(subsec-addition-of-integers-3-2-1-1,lower-alpha)")"; }
+#subsec-addition-of-integers-3-2-1-1 > li { counter-increment: subsec-addition-of-integers-3-2-1-1; }
+#subsec-conversion-of-fractions-to-decimals-5-1-2-1 { counter-set: subsec-conversion-of-fractions-to-decimals-5-1-2-1 0; }
+#subsec-conversion-of-fractions-to-decimals-5-1-2-1 > li::marker { content: ""counter(subsec-conversion-of-fractions-to-decimals-5-1-2-1,lower-alpha)")"; }
+#subsec-conversion-of-fractions-to-decimals-5-1-2-1 > li { counter-increment: subsec-conversion-of-fractions-to-decimals-5-1-2-1; }
+#subsec-conversion-of-fractions-to-decimals-5-2-1-1 { counter-set: subsec-conversion-of-fractions-to-decimals-5-2-1-1 0; }
+#subsec-conversion-of-fractions-to-decimals-5-2-1-1 > li::marker { content: ""counter(subsec-conversion-of-fractions-to-decimals-5-2-1-1,lower-alpha)")"; }
+#subsec-conversion-of-fractions-to-decimals-5-2-1-1 > li { counter-increment: subsec-conversion-of-fractions-to-decimals-5-2-1-1; }
+#subsec-recurring-decimals-5-1-2-1 { counter-set: subsec-recurring-decimals-5-1-2-1 0; }
+#subsec-recurring-decimals-5-1-2-1 > li::marker { content: ""counter(subsec-recurring-decimals-5-1-2-1,lower-alpha)")"; }
+#subsec-recurring-decimals-5-1-2-1 > li { counter-increment: subsec-recurring-decimals-5-1-2-1; }
+#subsec-recurring-decimals-5-2-1-1 { counter-set: subsec-recurring-decimals-5-2-1-1 0; }
+#subsec-recurring-decimals-5-2-1-1 > li::marker { content: ""counter(subsec-recurring-decimals-5-2-1-1,lower-alpha)")"; }
+#subsec-recurring-decimals-5-2-1-1 > li { counter-increment: subsec-recurring-decimals-5-2-1-1; }
+#subsec-converting-recurring-decimals-to-fractions-5-1-2-1 { counter-set: subsec-converting-recurring-decimals-to-fractions-5-1-2-1 0; }
+#subsec-converting-recurring-decimals-to-fractions-5-1-2-1 > li::marker { content: ""counter(subsec-converting-recurring-decimals-to-fractions-5-1-2-1,lower-alpha)")"; }
+#subsec-converting-recurring-decimals-to-fractions-5-1-2-1 > li { counter-increment: subsec-converting-recurring-decimals-to-fractions-5-1-2-1; }
+#subsec-converting-recurring-decimals-to-fractions-5-2-1-1 { counter-set: subsec-converting-recurring-decimals-to-fractions-5-2-1-1 0; }
+#subsec-converting-recurring-decimals-to-fractions-5-2-1-1 > li::marker { content: ""counter(subsec-converting-recurring-decimals-to-fractions-5-2-1-1,lower-alpha)")"; }
+#subsec-converting-recurring-decimals-to-fractions-5-2-1-1 > li { counter-increment: subsec-converting-recurring-decimals-to-fractions-5-2-1-1; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-1-2-1 { counter-set: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-1-2-1 0; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-1-2-1 > li::marker { content: ""counter(subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-1-2-1,lower-alpha)")"; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-1-2-1 > li { counter-increment: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-1-2-1; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-2-1-1 { counter-set: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-2-1-1 0; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-2-1-1 > li::marker { content: ""counter(subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-2-1-1,lower-alpha)")"; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-2-1-1 > li { counter-increment: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-4-2-1-1; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-1-2-1 { counter-set: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-1-2-1 0; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-1-2-1 > li::marker { content: ""counter(subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-1-2-1,lower-alpha)")"; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-1-2-1 > li { counter-increment: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-1-2-1; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-2-1-1 { counter-set: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-2-1-1 0; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-2-1-1 > li::marker { content: ""counter(subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-2-1-1,lower-alpha)")"; }
+#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-2-1-1 > li { counter-increment: subsec-rounding-off-decimal-numbers-to-the-required-decimal-places-5-2-1-1; }
+#subsec-expressing-numbers-to-the-required-significant-figures-6-1-2-1 { counter-set: subsec-expressing-numbers-to-the-required-significant-figures-6-1-2-1 0; }
+#subsec-expressing-numbers-to-the-required-significant-figures-6-1-2-1 > li::marker { content: ""counter(subsec-expressing-numbers-to-the-required-significant-figures-6-1-2-1,lower-alpha)")"; }
+#subsec-expressing-numbers-to-the-required-significant-figures-6-1-2-1 > li { counter-increment: subsec-expressing-numbers-to-the-required-significant-figures-6-1-2-1; }
+#subsec-expressing-numbers-to-the-required-significant-figures-6-2-1-1 { counter-set: subsec-expressing-numbers-to-the-required-significant-figures-6-2-1-1 0; }
+#subsec-expressing-numbers-to-the-required-significant-figures-6-2-1-1 > li::marker { content: ""counter(subsec-expressing-numbers-to-the-required-significant-figures-6-2-1-1,lower-alpha)")"; }
+#subsec-expressing-numbers-to-the-required-significant-figures-6-2-1-1 > li { counter-increment: subsec-expressing-numbers-to-the-required-significant-figures-6-2-1-1; }
+#subsec-expressing-numbers-to-the-required-significant-figures-7-1-2-1 { counter-set: subsec-expressing-numbers-to-the-required-significant-figures-7-1-2-1 0; }
+#subsec-expressing-numbers-to-the-required-significant-figures-7-1-2-1 > li::marker { content: ""counter(subsec-expressing-numbers-to-the-required-significant-figures-7-1-2-1,lower-alpha)")"; }
+#subsec-expressing-numbers-to-the-required-significant-figures-7-1-2-1 > li { counter-increment: subsec-expressing-numbers-to-the-required-significant-figures-7-1-2-1; }
+#subsec-expressing-numbers-to-the-required-significant-figures-7-2-1-1 { counter-set: subsec-expressing-numbers-to-the-required-significant-figures-7-2-1-1 0; }
+#subsec-expressing-numbers-to-the-required-significant-figures-7-2-1-1 > li::marker { content: ""counter(subsec-expressing-numbers-to-the-required-significant-figures-7-2-1-1,lower-alpha)")"; }
+#subsec-expressing-numbers-to-the-required-significant-figures-7-2-1-1 > li { counter-increment: subsec-expressing-numbers-to-the-required-significant-figures-7-2-1-1; }
+#subsec-expressing-numbers-in-standard-form-4-1-2-1 { counter-set: subsec-expressing-numbers-in-standard-form-4-1-2-1 0; }
+#subsec-expressing-numbers-in-standard-form-4-1-2-1 > li::marker { content: ""counter(subsec-expressing-numbers-in-standard-form-4-1-2-1,lower-alpha)")"; }
+#subsec-expressing-numbers-in-standard-form-4-1-2-1 > li { counter-increment: subsec-expressing-numbers-in-standard-form-4-1-2-1; }
+#subsec-expressing-numbers-in-standard-form-4-2-1-1 { counter-set: subsec-expressing-numbers-in-standard-form-4-2-1-1 0; }
+#subsec-expressing-numbers-in-standard-form-4-2-1-1 > li::marker { content: ""counter(subsec-expressing-numbers-in-standard-form-4-2-1-1,lower-alpha)")"; }
+#subsec-expressing-numbers-in-standard-form-4-2-1-1 > li { counter-increment: subsec-expressing-numbers-in-standard-form-4-2-1-1; }
+#subsec-combined-operations-4-1-2-1 { counter-set: subsec-combined-operations-4-1-2-1 0; }
+#subsec-combined-operations-4-1-2-1 > li::marker { content: ""counter(subsec-combined-operations-4-1-2-1,lower-alpha)")"; }
+#subsec-combined-operations-4-1-2-1 > li { counter-increment: subsec-combined-operations-4-1-2-1; }
+#subsec-combined-operations-4-2-1-1 { counter-set: subsec-combined-operations-4-2-1-1 0; }
+#subsec-combined-operations-4-2-1-1 > li::marker { content: ""counter(subsec-combined-operations-4-2-1-1,lower-alpha)")"; }
+#subsec-combined-operations-4-2-1-1 > li { counter-increment: subsec-combined-operations-4-2-1-1; }
+#subsubsec-calculating-the-area-of-a-circle-in-different-situations-2-3-1 { counter-set: subsubsec-calculating-the-area-of-a-circle-in-different-situations-2-3-1 0; }
+#subsubsec-calculating-the-area-of-a-circle-in-different-situations-2-3-1 > li::marker { content: ""counter(subsubsec-calculating-the-area-of-a-circle-in-different-situations-2-3-1,decimal)"."; }
+#subsubsec-calculating-the-area-of-a-circle-in-different-situations-2-3-1 > li { counter-increment: subsubsec-calculating-the-area-of-a-circle-in-different-situations-2-3-1; }
+#subsubsec-area-of-a-sector-of-a-circle-9-4-1 { counter-set: subsubsec-area-of-a-sector-of-a-circle-9-4-1 0; }
+#subsubsec-area-of-a-sector-of-a-circle-9-4-1 > li::marker { content: "("counter(subsubsec-area-of-a-sector-of-a-circle-9-4-1,lower-roman)")"; }
+#subsubsec-area-of-a-sector-of-a-circle-9-4-1 > li { counter-increment: subsubsec-area-of-a-sector-of-a-circle-9-4-1; }
+#subsubsec-area-of-a-sector-of-a-circle2-6-2-1 { counter-set: subsubsec-area-of-a-sector-of-a-circle2-6-2-1 0; }
+#subsubsec-area-of-a-sector-of-a-circle2-6-2-1 > li::marker { content: ""counter(subsubsec-area-of-a-sector-of-a-circle2-6-2-1,decimal)"."; }
+#subsubsec-area-of-a-sector-of-a-circle2-6-2-1 > li { counter-increment: subsubsec-area-of-a-sector-of-a-circle2-6-2-1; }
+#subsec-surface-area-of-cubes-2-6-1 { counter-set: subsec-surface-area-of-cubes-2-6-1 0; }
+#subsec-surface-area-of-cubes-2-6-1 > li::marker { content: ""counter(subsec-surface-area-of-cubes-2-6-1,lower-alpha)""; }
+#subsec-surface-area-of-cubes-2-6-1 > li { counter-increment: subsec-surface-area-of-cubes-2-6-1; }
+#subsec-interest-and-principal-2-2-1 { counter-set: subsec-interest-and-principal-2-2-1 0; }
+#subsec-interest-and-principal-2-2-1 > li::marker { content: "("counter(subsec-interest-and-principal-2-2-1,lower-alpha)")"; }
+#subsec-interest-and-principal-2-2-1 > li { counter-increment: subsec-interest-and-principal-2-2-1; }
+#subsubsec-identifying-interest-and-principal-2-4-1 { counter-set: subsubsec-identifying-interest-and-principal-2-4-1 0; }
+#subsubsec-identifying-interest-and-principal-2-4-1 > li::marker { content: ""counter(subsubsec-identifying-interest-and-principal-2-4-1,decimal)"."; }
+#subsubsec-identifying-interest-and-principal-2-4-1 > li { counter-increment: subsubsec-identifying-interest-and-principal-2-4-1; }
+#subsubsec-identifying-interest-and-principal-5-1-2-1 { counter-set: subsubsec-identifying-interest-and-principal-5-1-2-1 0; }
+#subsubsec-identifying-interest-and-principal-5-1-2-1 > li::marker { content: "("counter(subsubsec-identifying-interest-and-principal-5-1-2-1,lower-alpha)")"; }
+#subsubsec-identifying-interest-and-principal-5-1-2-1 > li { counter-increment: subsubsec-identifying-interest-and-principal-5-1-2-1; }
+#subsubsec-identifying-interest-and-principal-6-1-2-1 { counter-set: subsubsec-identifying-interest-and-principal-6-1-2-1 0; }
+#subsubsec-identifying-interest-and-principal-6-1-2-1 > li::marker { content: ""counter(subsubsec-identifying-interest-and-principal-6-1-2-1,decimal)"."; }
+#subsubsec-identifying-interest-and-principal-6-1-2-1 > li { counter-increment: subsubsec-identifying-interest-and-principal-6-1-2-1; }
+#subsubsec-identifying-interest-and-principal-6-1-2-1-1-2-1 { counter-set: subsubsec-identifying-interest-and-principal-6-1-2-1-1-2-1 0; }
+#subsubsec-identifying-interest-and-principal-6-1-2-1-1-2-1 > li::marker { content: "("counter(subsubsec-identifying-interest-and-principal-6-1-2-1-1-2-1,lower-alpha)")"; }
+#subsubsec-identifying-interest-and-principal-6-1-2-1-1-2-1 > li { counter-increment: subsubsec-identifying-interest-and-principal-6-1-2-1-1-2-1; }
+#subsubsec-identifying-interest-and-principal-6-2-1-1 { counter-set: subsubsec-identifying-interest-and-principal-6-2-1-1 0; }
+#subsubsec-identifying-interest-and-principal-6-2-1-1 > li::marker { content: "("counter(subsubsec-identifying-interest-and-principal-6-2-1-1,lower-alpha)")"; }
+#subsubsec-identifying-interest-and-principal-6-2-1-1 > li { counter-increment: subsubsec-identifying-interest-and-principal-6-2-1-1; }
+#subsubsec-calculating-simple-interest-2-4-1 { counter-set: subsubsec-calculating-simple-interest-2-4-1 0; }
+#subsubsec-calculating-simple-interest-2-4-1 > li::marker { content: ""counter(subsubsec-calculating-simple-interest-2-4-1,decimal)"."; }
+#subsubsec-calculating-simple-interest-2-4-1 > li { counter-increment: subsubsec-calculating-simple-interest-2-4-1; }
+#subsubsec-calculating-simple-interest-2-4-1-2-2-1 { counter-set: subsubsec-calculating-simple-interest-2-4-1-2-2-1 0; }
+#subsubsec-calculating-simple-interest-2-4-1-2-2-1 > li::marker { content: "("counter(subsubsec-calculating-simple-interest-2-4-1-2-2-1,lower-alpha)")"; }
+#subsubsec-calculating-simple-interest-2-4-1-2-2-1 > li { counter-increment: subsubsec-calculating-simple-interest-2-4-1-2-2-1; }
+#subsubsec-calculating-simple-interest-2-4-1-4-1-1 { counter-set: subsubsec-calculating-simple-interest-2-4-1-4-1-1 0; }
+#subsubsec-calculating-simple-interest-2-4-1-4-1-1 > li::marker { content: "("counter(subsubsec-calculating-simple-interest-2-4-1-4-1-1,lower-alpha)")"; }
+#subsubsec-calculating-simple-interest-2-4-1-4-1-1 > li { counter-increment: subsubsec-calculating-simple-interest-2-4-1-4-1-1; }
+#subsubsec-calculating-simple-interest-6-1-2-1 { counter-set: subsubsec-calculating-simple-interest-6-1-2-1 0; }
+#subsubsec-calculating-simple-interest-6-1-2-1 > li::marker { content: "("counter(subsubsec-calculating-simple-interest-6-1-2-1,lower-alpha)")"; }
+#subsubsec-calculating-simple-interest-6-1-2-1 > li { counter-increment: subsubsec-calculating-simple-interest-6-1-2-1; }
+#subsubsec-calculating-simple-interest-6-2-1-1 { counter-set: subsubsec-calculating-simple-interest-6-2-1-1 0; }
+#subsubsec-calculating-simple-interest-6-2-1-1 > li::marker { content: "("counter(subsubsec-calculating-simple-interest-6-2-1-1,lower-alpha)")"; }
+#subsubsec-calculating-simple-interest-6-2-1-1 > li { counter-increment: subsubsec-calculating-simple-interest-6-2-1-1; }
+#subsec-simple-interest2-5-2-1 { counter-set: subsec-simple-interest2-5-2-1 0; }
+#subsec-simple-interest2-5-2-1 > li::marker { content: ""counter(subsec-simple-interest2-5-2-1,decimal)"."; }
+#subsec-simple-interest2-5-2-1 > li { counter-increment: subsec-simple-interest2-5-2-1; }
+#subsec-simple-interest2-5-2-1-4-1-1 { counter-set: subsec-simple-interest2-5-2-1-4-1-1 0; }
+#subsec-simple-interest2-5-2-1-4-1-1 > li::marker { content: "("counter(subsec-simple-interest2-5-2-1-4-1-1,lower-alpha)")"; }
+#subsec-simple-interest2-5-2-1-4-1-1 > li { counter-increment: subsec-simple-interest2-5-2-1-4-1-1; }
+#subsec-simple-interest2-8-1 { counter-set: subsec-simple-interest2-8-1 0; }
+#subsec-simple-interest2-8-1 > li::marker { content: "("counter(subsec-simple-interest2-8-1,lower-alpha)")."; }
+#subsec-simple-interest2-8-1 > li { counter-increment: subsec-simple-interest2-8-1; }
+#subsubsec-compound-interest-2-3-1 { counter-set: subsubsec-compound-interest-2-3-1 0; }
+#subsubsec-compound-interest-2-3-1 > li::marker { content: "("counter(subsubsec-compound-interest-2-3-1,lower-roman)")."; }
+#subsubsec-compound-interest-2-3-1 > li { counter-increment: subsubsec-compound-interest-2-3-1; }
+#subsubsec-compound-interest-6-1-2-1 { counter-set: subsubsec-compound-interest-6-1-2-1 0; }
+#subsubsec-compound-interest-6-1-2-1 > li::marker { content: "("counter(subsubsec-compound-interest-6-1-2-1,lower-alpha)")"; }
+#subsubsec-compound-interest-6-1-2-1 > li { counter-increment: subsubsec-compound-interest-6-1-2-1; }
+#subsubsec-compound-interest-6-2-1-1 { counter-set: subsubsec-compound-interest-6-2-1-1 0; }
+#subsubsec-compound-interest-6-2-1-1 > li::marker { content: "("counter(subsubsec-compound-interest-6-2-1-1,lower-alpha)")"; }
+#subsubsec-compound-interest-6-2-1-1 > li { counter-increment: subsubsec-compound-interest-6-2-1-1; }
+#subsec-the-cartesian-plane-4-2-1 { counter-set: subsec-the-cartesian-plane-4-2-1 0; }
+#subsec-the-cartesian-plane-4-2-1 > li::marker { content: ""counter(subsec-the-cartesian-plane-4-2-1,decimal)"."; }
+#subsec-the-cartesian-plane-4-2-1 > li { counter-increment: subsec-the-cartesian-plane-4-2-1; }
+#subsec-the-cartesian-plane-7-1 { counter-set: subsec-the-cartesian-plane-7-1 0; }
+#subsec-the-cartesian-plane-7-1 > li::marker { content: ""counter(subsec-the-cartesian-plane-7-1,decimal)"."; }
+#subsec-the-cartesian-plane-7-1 > li { counter-increment: subsec-the-cartesian-plane-7-1; }
+#subsec-identifying-points-on-the-cartesian-plane-4-5-1 { counter-set: subsec-identifying-points-on-the-cartesian-plane-4-5-1 0; }
+#subsec-identifying-points-on-the-cartesian-plane-4-5-1 > li::marker { content: ""counter(subsec-identifying-points-on-the-cartesian-plane-4-5-1,decimal)"."; }
+#subsec-identifying-points-on-the-cartesian-plane-4-5-1 > li { counter-increment: subsec-identifying-points-on-the-cartesian-plane-4-5-1; }
+#subsec-identifying-points-on-the-cartesian-plane-7-2-1-1 { counter-set: subsec-identifying-points-on-the-cartesian-plane-7-2-1-1 0; }
+#subsec-identifying-points-on-the-cartesian-plane-7-2-1-1 > li::marker { content: ""counter(subsec-identifying-points-on-the-cartesian-plane-7-2-1-1,decimal)"."; }
+#subsec-identifying-points-on-the-cartesian-plane-7-2-1-1 > li { counter-increment: subsec-identifying-points-on-the-cartesian-plane-7-2-1-1; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-4-2-1 { counter-set: subsec-plotting-points-on-the-cartesian-plane-in-different-situations-4-2-1 0; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-4-2-1 > li::marker { content: "("counter(subsec-plotting-points-on-the-cartesian-plane-in-different-situations-4-2-1,lower-alpha)")."; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-4-2-1 > li { counter-increment: subsec-plotting-points-on-the-cartesian-plane-in-different-situations-4-2-1; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-1-3-1 { counter-set: subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-1-3-1 0; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-1-3-1 > li::marker { content: ""counter(subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-1-3-1,decimal)"."; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-1-3-1 > li { counter-increment: subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-1-3-1; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-2-1-1 { counter-set: subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-2-1-1 0; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-2-1-1 > li::marker { content: ""counter(subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-2-1-1,decimal)"."; }
+#subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-2-1-1 > li { counter-increment: subsec-plotting-points-on-the-cartesian-plane-in-different-situations-5-2-1-1; }
+#subsec-appropriate-scale-for-a-linear-equation-5-3-1 { counter-set: subsec-appropriate-scale-for-a-linear-equation-5-3-1 0; }
+#subsec-appropriate-scale-for-a-linear-equation-5-3-1 > li::marker { content: "("counter(subsec-appropriate-scale-for-a-linear-equation-5-3-1,lower-alpha)")."; }
+#subsec-appropriate-scale-for-a-linear-equation-5-3-1 > li { counter-increment: subsec-appropriate-scale-for-a-linear-equation-5-3-1; }
+#subsec-appropriate-scale-for-a-linear-equation-8-1-2-1 { counter-set: subsec-appropriate-scale-for-a-linear-equation-8-1-2-1 0; }
+#subsec-appropriate-scale-for-a-linear-equation-8-1-2-1 > li::marker { content: "("counter(subsec-appropriate-scale-for-a-linear-equation-8-1-2-1,lower-alpha)")."; }
+#subsec-appropriate-scale-for-a-linear-equation-8-1-2-1 > li { counter-increment: subsec-appropriate-scale-for-a-linear-equation-8-1-2-1; }
+#subsec-appropriate-scale-for-a-linear-equation-8-2-1-1 { counter-set: subsec-appropriate-scale-for-a-linear-equation-8-2-1-1 0; }
+#subsec-appropriate-scale-for-a-linear-equation-8-2-1-1 > li::marker { content: "("counter(subsec-appropriate-scale-for-a-linear-equation-8-2-1-1,lower-roman)")."; }
+#subsec-appropriate-scale-for-a-linear-equation-8-2-1-1 > li { counter-increment: subsec-appropriate-scale-for-a-linear-equation-8-2-1-1; }
+#subsec-drawing-bar-graphs-of-data-from-real-life-situations-4-2-1 { counter-set: subsec-drawing-bar-graphs-of-data-from-real-life-situations-4-2-1 0; }
+#subsec-drawing-bar-graphs-of-data-from-real-life-situations-4-2-1 > li::marker { content: "("counter(subsec-drawing-bar-graphs-of-data-from-real-life-situations-4-2-1,lower-roman)")."; }
+#subsec-drawing-bar-graphs-of-data-from-real-life-situations-4-2-1 > li { counter-increment: subsec-drawing-bar-graphs-of-data-from-real-life-situations-4-2-1; }
+#subsec-drawing-bar-graphs-of-data-from-real-life-situations-8-2-1 { counter-set: subsec-drawing-bar-graphs-of-data-from-real-life-situations-8-2-1 0; }
+#subsec-drawing-bar-graphs-of-data-from-real-life-situations-8-2-1 > li::marker { content: "("counter(subsec-drawing-bar-graphs-of-data-from-real-life-situations-8-2-1,lower-alpha)")."; }
+#subsec-drawing-bar-graphs-of-data-from-real-life-situations-8-2-1 > li { counter-increment: subsec-drawing-bar-graphs-of-data-from-real-life-situations-8-2-1; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-3-4-1 { counter-set: subsec-interpreting-bar-graphs-of-data-from-real-life-situations-3-4-1 0; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-3-4-1 > li::marker { content: "("counter(subsec-interpreting-bar-graphs-of-data-from-real-life-situations-3-4-1,lower-roman)")."; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-3-4-1 > li { counter-increment: subsec-interpreting-bar-graphs-of-data-from-real-life-situations-3-4-1; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-1-3-1 { counter-set: subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-1-3-1 0; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-1-3-1 > li::marker { content: "("counter(subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-1-3-1,lower-alpha)")."; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-1-3-1 > li { counter-increment: subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-1-3-1; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-2-1-1 { counter-set: subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-2-1-1 0; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-2-1-1 > li::marker { content: "("counter(subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-2-1-1,lower-roman)")."; }
+#subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-2-1-1 > li { counter-increment: subsec-interpreting-bar-graphs-of-data-from-real-life-situations-6-2-1-1; }
+#subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations-3-3-1 { counter-set: subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations-3-3-1 0; }
+#subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations-3-3-1 > li::marker { content: "("counter(subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations-3-3-1,lower-roman)")."; }
+#subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations-3-3-1 > li { counter-increment: subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations-3-3-1; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-3-4-1 { counter-set: subsec-interpreting-line-graphs-of-data-from-real-life-situations-3-4-1 0; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-3-4-1 > li::marker { content: ""counter(subsec-interpreting-line-graphs-of-data-from-real-life-situations-3-4-1,decimal)"."; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-3-4-1 > li { counter-increment: subsec-interpreting-line-graphs-of-data-from-real-life-situations-3-4-1; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-1-3-1 { counter-set: subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-1-3-1 0; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-1-3-1 > li::marker { content: ""counter(subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-1-3-1,decimal)"."; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-1-3-1 > li { counter-increment: subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-1-3-1; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-2-1-1 { counter-set: subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-2-1-1 0; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-2-1-1 > li::marker { content: ""counter(subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-2-1-1,decimal)"."; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-2-1-1 > li { counter-increment: subsec-interpreting-line-graphs-of-data-from-real-life-situations-6-2-1-1; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-1-3-1 { counter-set: subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-1-3-1 0; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-1-3-1 > li::marker { content: "("counter(subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-1-3-1,lower-alpha)")."; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-1-3-1 > li { counter-increment: subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-1-3-1; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-2-1-1 { counter-set: subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-2-1-1 0; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-2-1-1 > li::marker { content: "("counter(subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-2-1-1,lower-alpha)")."; }
+#subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-2-1-1 > li { counter-increment: subsec-interpreting-line-graphs-of-data-from-real-life-situations-7-2-1-1; }
+#subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations-3-5-1 { counter-set: subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations-3-5-1 0; }
+#subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations-3-5-1 > li::marker { content: "("counter(subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations-3-5-1,lower-roman)")."; }
+#subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations-3-5-1 > li { counter-increment: subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations-3-5-1; }
+#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-5-5-1 { counter-set: subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-5-5-1 0; }
+#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-5-5-1 > li::marker { content: ""counter(subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-5-5-1,decimal)"."; }
+#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-5-5-1 > li { counter-increment: subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-5-5-1; }
+#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-6-1-5-1 { counter-set: subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-6-1-5-1 0; }
+#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-6-1-5-1 > li::marker { content: ""counter(subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-6-1-5-1,decimal)"."; }
+#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-6-1-5-1 > li { counter-increment: subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations-6-1-5-1; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-3-1 { counter-set: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-3-1 0; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-3-1 > li::marker { content: ""counter(subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-3-1,decimal)"."; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-3-1 > li { counter-increment: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-3-1; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-4-5-1 { counter-set: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-4-5-1 0; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-4-5-1 > li::marker { content: ""counter(subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-4-5-1,decimal)"."; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-4-5-1 > li { counter-increment: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-4-5-1; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-1-4-1 { counter-set: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-1-4-1 0; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-1-4-1 > li::marker { content: ""counter(subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-1-4-1,decimal)"."; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-1-4-1 > li { counter-increment: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-1-4-1; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-2-1-1 { counter-set: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-2-1-1 0; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-2-1-1 > li::marker { content: "("counter(subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-2-1-1,lower-roman)")."; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-2-1-1 > li { counter-increment: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-7-2-1-1; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-8-1-2-1 { counter-set: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-8-1-2-1 0; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-8-1-2-1 > li::marker { content: ""counter(subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-8-1-2-1,decimal)"."; }
+#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-8-1-2-1 > li { counter-increment: subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations-8-1-2-1; }
+</style>
 </head>
 <body id="changeme" class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
-<p class="byline">You, You</p>
-</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<p class="byline">You, Joseph Baya Karisa, You</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -125,8 +323,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-geometry.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="my-great-book.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-common_solids.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="my-great-book.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-data-presentation-and-interpretation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -134,56 +331,169 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Integers.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Integers</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Fractions</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Decimals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Decimals</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Integers.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-identifying-integers" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Identifying integers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-representing-integers-on-a-number-line" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Representing Integers on a Number Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Integers.html#subsec-addition-of-integers" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Addition of integers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-addition-and-subtraction" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Combined operations involving addition and subtraction.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-multiplication-and-division" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Combined operations involving multiplication and division.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsubsec-combined-operations-involving-three-operations" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Combined operations involving three operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-all-operations" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Combined operations involving all operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-combined-operations-involving-brackets" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Combined operations involving-brackets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#subsec-operations-involving-fractions-in-real-life" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Operations involving fractions in real life</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Decimals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-conversion-of-fractions-to-decimals" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Conversion of fractions to decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-recurring-decimals" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Recurring decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-converting-recurring-decimals-to-fractions" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Converting Recurring Decimals to Fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-rounding-off-decimal-numbers-to-the-required-decimal-places" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Rounding off decimal numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-expressing-numbers-to-the-required-significant-figures" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Expressing Numbers to the Required Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-expressing-numbers-in-standard-form" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Expressing Numbers in Standard Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Decimals.html#subsec-combined-operations" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Combined Operations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Squares and Square Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-and-square-roots-using-tables" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Squares and square roots using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-decimal-numbers-using-tables" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Squares of decimal numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-square-roots-of-whole-numbers-using-tables" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Square roots of whole numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsubsec-square-roots-of-decimals-numbers-using-tables" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Square roots of decimal numbers using tables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-squares-of-numbers-from-a-calculator" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Squares of numbers from a calculator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Squares-and-Square-Roots.html#subsec-square-roots-of-numbers-from-a-calculator" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Square roots of numbers from a calculator</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Rates-Ratio-Proportions-and-Percents.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Rates Ratio Proportions and Percents</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">2</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-example-section.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Example Section</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-measurements.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurements</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-algebraic-expressions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebraic expressions</span></a></div>
+<div class="toc-title-box"><a href="sec-section-circles.html" class="internal"><span class="codenumber">3.1</span> <span class="title">circles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-circles.html#subsec-circumference-of-a-circle" class="internal"><span class="codenumber">3.1.1</span> <span class="title">circumference of a circle</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-area.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Area</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-factorisation-of-algebraic-expressions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Factorisation of algebraic expressions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-factorisation-of-algebraic-expressions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-a-circle" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Area of a circle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-calculating-the-area-of-a-circle-in-different-situations" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Calculating the area of a circle in different situations.</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-simplifying-algebraic-fractions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Simplifying algebraic fractions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-simplifying-algebraic-fractions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-area-of-a-sector" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Area of a sector</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-area-of-a-sector-of-a-circle" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Area of a sector of a circle(1)</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-area-of-a-sector-of-a-circle2" class="internal"><span class="codenumber">3.2.2.2</span> <span class="title">Area of a sector of a circle(2)</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-algebraic-expressions.html#subsec-evaluating-algebraic-expressions-by-substitution" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Evaluating algebraic expressions by substitution</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-algebraic-expressions.html#exercises-evaluating-algebraic-expressions-by-substitution" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-cubes" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Surface area of cubes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-area.html#subsubsec-surface-area-of-cubes-in-real-life-situations" class="internal"><span class="codenumber">3.2.3.1</span> <span class="title">Surface area of cubes in real life situations.</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-area.html#subsec-surface-area-of-cuboids" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Surface area of cuboids</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-money.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Money</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-interest-and-principal" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Interest and principal</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-identifying-interest-and-principal" class="internal"><span class="codenumber">3.3.1.1</span> <span class="title">Identifying interest and principal in real lie situation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-simple-intrest" class="internal"><span class="codenumber">3.3.2</span> <span class="title">simple intrest(1)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-calculating-simple-interest" class="internal"><span class="codenumber">3.3.2.1</span> <span class="title">Calculating simple interest in real life situations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-money.html#subsec-simple-interest2" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Simple interest(2)</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-money.html#subsec-compound-interest" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Compound interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-money.html#subsubsec-compound-interest" class="internal"><span class="codenumber">3.3.4.1</span> <span class="title">Calculating compound interest step by step per annum in real life situation</span></a></div></li></ul>
 </li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear%20equations.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Linear equations</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-measurements.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurements</span></a></div></li>
-<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div></li>
-<li class="toc-item toc-chapter active"><div class="toc-title-box"><a href="ch-data_handling_and_probability.html" class="internal"><span class="codenumber">5</span> <span class="title">Data Handling and Probability</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-geometrical_constructions.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometrical Constructions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-coordinates_and_graphs.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Coordinates and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-the-cartesian-plane" class="internal"><span class="codenumber">4.2.1</span> <span class="title">the cartesian plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-identifying-points-on-the-cartesian-plane" class="internal"><span class="codenumber">4.2.2</span> <span class="title">identifying points on the cartesian plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-plotting-points-on-the-cartesian-plane-in-different-situations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">plotting points on the cartesian plane in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-table-of-values-for-linear-equations" class="internal"><span class="codenumber">4.2.4</span> <span class="title">table of values for linear equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-appropriate-scale-for-a-linear-equation" class="internal"><span class="codenumber">4.2.5</span> <span class="title">appropriate scale for a linear equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates_and_graphs.html#subsec-linear-graphs" class="internal"><span class="codenumber">4.2.6</span> <span class="title">linear-graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scale_drawing.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Scale Drawing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-common_solids.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Commonn Solids</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter active">
+<div class="toc-title-box"><a href="ch-data_handling_and_probability.html" class="internal"><span class="codenumber">5</span> <span class="title">Data Handling and Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html" class="internal"><span class="codenumber">5.1</span> <span class="title">data presentation and interpretation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-drawing-bar-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.1</span> <span class="title">drawing bar graphs of data from real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-interpreting-bar-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">interpreting bar graphs of data from real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.3</span> <span class="title">drawing line graphs of data of given data from real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-interpreting-line-graphs-of-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.4</span> <span class="title">interpreting line graphs of  data from real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.5</span> <span class="title">identifying the mode of a set of discrete data from real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.6</span> <span class="title">calculating the mean of a set of discrete data from real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data-presentation-and-interpretation.html#subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations" class="internal"><span class="codenumber">5.1.7</span> <span class="title">determining the median of a set of discrete data from real life situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-identifying-events-involving-chance-in-real-life-situations" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Identifying events involving chance in real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-performing-chance-experiments-in-different-situations" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Performing chance experiments in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-writing-experimental-probability-outcomes-in-different-situations" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Writing experimental probability outcomes in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-fractions-in-different-situations" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Expressing probability outcomes in fractions in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-expressing-probability-outcomes-in-decimals-or-percentages-in-different-situations" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Expressing probability outcomes in decimals or percentages in different situations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="chapter" id="ch-data_handling_and_probability"><h2 class="heading">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-data_handling_and_probability"><h2 class="heading">
 <span class="type">Chapter</span><span class="space"> </span><span class="codenumber">5</span><span class="space"> </span><span class="title">Data Handling and Probability</span>
 </h2>
-<div class="para" id="ch-data_handling_and_probability-2">This chapter is about data handling and probability.</div></section></div>
+<nav class="summary-links"><ul>
+<li><a href="sec-data-presentation-and-interpretation.html" class="internal"><span class="codenumber">5.1</span> <span class="title">data presentation and interpretation</span></a></li>
+<li><a href="sec-probability.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Probability</span></a></li>
+</ul></nav></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="ch-geometry.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-common_solids.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-data-presentation-and-interpretation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>
