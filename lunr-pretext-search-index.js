@@ -1231,7 +1231,124 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Linear equations",
-  "body": " Linear equations  You are planning resume for the next terms session in your school. You need to buy exercise books and a mathematical set. The cost of one exercise book is Ksh , and a mathematical set costs Ksh . If you have a total of Ksh to spend, how many exercise books can you buy for your school work?  [**A photo of a bookshop(showing shelves behind) with the seller and a student at the counter with a set and some books at the counter**]  In this situation we need to form an equation to determine the number of exercise books. We can represent the number of books as and write the total cost as:     Therefore we can say, a  is a mathematical statement that shows the relationship between numbers and an unknown value using addition, subtraction, multiplication, or division.  Understanding how to form and solve linear equations allows us to make better decisions and solve practical challenges efficiently.   "
+  "body": " Linear equations   You are planning resume for the next terms session in your school. You need to buy exercise books and a mathematical set. The cost of one exercise book is Ksh , and a mathematical set costs Ksh . If you have a total of Ksh to spend, how many exercise books can you buy for your school work?  [**A photo of a bookshop(showing shelves behind) with the seller and a student at the counter with a set and some books at the counter**]  In this situation we need to form an equation to determine the number of exercise books. We can represent the number of books as and write the total cost as:     Therefore we can say, a  is a mathematical statement that shows the relationship between numbers and an unknown value using addition, subtraction, multiplication, or division.  Understanding how to form and solve linear equations allows us to make better decisions and solve practical challenges efficiently.    Forming linear equations in one unknown(1)          Forming Linear Equations in Two Unknowns   In many real-life situations, we encounter problems involving two related unknown quantities. When we represent such problems using algebra, we form equations with two variables. These are known as linear equations in two unknowns, often written in the form .  To form such equations, we assign variables to the unknowns, then use the information given to write two related expressions and connect them with an equals sign.    Examples of Forming Linear Equations   Forming equations from money and quantity   A fruit vendor sells oranges at Ksh 10 each and mangoes at Ksh 20 each. On a certain day, she sold a total of 50 fruits worth Ksh 800. Form two linear equations to represent the situation.    Let be the number of oranges and be the number of mangoes.  Equation for total fruits:  Equation for total cost:     Forming equations from age relationships   The sum of Mary and her brother's ages is 30. Mary is 4 years older than her brother. Form linear equations in two unknowns.    Let Mary's age be and her brother's age be .  Equation for total age:  Mary is 4 years older:        A carpenter makes stools and tables. A stool sells for Ksh 500 and a table for Ksh 1,000. On a market day, he sold 10 items and earned Ksh 7,000. Form two equations.      A farmer bought some cows and goats. Each cow costs Ksh 25,000 and each goat Ksh 5,000. He bought 12 animals and spent Ksh 180,000. Form two equations.        A shopkeeper sells pens at Ksh 30 and pencils at Ksh 20. In one day, she sells 40 items and earns Ksh 1,100. Form two linear equations to represent this situation.      A boda boda rider transports passengers and parcels. A passenger trip earns Ksh 100 while a parcel delivery earns Ksh 150. In a day, the rider completes 20 trips and earns Ksh 2,500. Form two equations.      A man has some 100-shilling and 200-shilling notes adding up to Ksh 2,400. Form two equations to represent this.      To form linear equations in two unknowns:  Assign variables to each unknown.  Use the relationships or totals given to form two separate equations.  The equations will typically be solved together using substitution or elimination methods.       Solving linear equations by elimination method          Solving Linear Equations using Substitution Method   The substitution method is used to solve a pair of linear equations in two unknowns. It involves expressing one variable in terms of the other from one equation, and then substituting into the second equation to find the solution.  This method is especially useful when one of the equations is already simplified or one variable has a coefficient of 1.    Examples of Solving Linear Equations   Solving equations using substitution   Solve the following equations using substitution:      Step 1: The first equation is already in terms of : .  Step 2: Substitute into the second equation:     →  Step 3: Substitute back into :   Final Answer: ,     Substitution from a rearranged equation   Solve: and using substitution.    Step 1: Rearrange the first equation to make the subject:   Step 2: Substitute into the second equation:     →  Step 3: Substitute into :   Final Answer: ,      Practice: Solve by Substitution    Solve: and   Solve: and       Note on Choosing Equations for Substitution  When choosing which equation to use for substitution, look for one that is already solved for a variable or can be easily rearranged. This saves time and avoids complex algebra.    To solve equations using substitution:     Make one variable the subject in one of the equations.    Substitute into the second equation.    Solve for one variable, then back-substitute to find the other.    Check your solution by substituting into both original equations.        Solving Linear Equations by graphical Method         "
+},
+{
+  "id": "subsec-forming-linear-equations-in-one-unknown(1)-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#subsec-forming-linear-equations-in-one-unknown(1)-2",
+  "type": "Example",
+  "number": "2.2.1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "forming-equations-examples-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-equations-examples-2",
+  "type": "Example",
+  "number": "2.2.2",
+  "title": "Forming equations from money and quantity.",
+  "body": " Forming equations from money and quantity   A fruit vendor sells oranges at Ksh 10 each and mangoes at Ksh 20 each. On a certain day, she sold a total of 50 fruits worth Ksh 800. Form two linear equations to represent the situation.    Let be the number of oranges and be the number of mangoes.  Equation for total fruits:  Equation for total cost:   "
+},
+{
+  "id": "forming-equations-examples-3",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-equations-examples-3",
+  "type": "Example",
+  "number": "2.2.3",
+  "title": "Forming equations from age relationships.",
+  "body": " Forming equations from age relationships   The sum of Mary and her brother's ages is 30. Mary is 4 years older than her brother. Form linear equations in two unknowns.    Let Mary's age be and her brother's age be .  Equation for total age:  Mary is 4 years older:   "
+},
+{
+  "id": "forming-linear-equations-in-two-unknowns-4-1",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-linear-equations-in-two-unknowns-4-1",
+  "type": "Exercise",
+  "number": "2.2.2.2.1",
+  "title": "",
+  "body": "  A carpenter makes stools and tables. A stool sells for Ksh 500 and a table for Ksh 1,000. On a market day, he sold 10 items and earned Ksh 7,000. Form two equations.   "
+},
+{
+  "id": "forming-linear-equations-in-two-unknowns-4-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-linear-equations-in-two-unknowns-4-2",
+  "type": "Exercise",
+  "number": "2.2.2.2.2",
+  "title": "",
+  "body": "  A farmer bought some cows and goats. Each cow costs Ksh 25,000 and each goat Ksh 5,000. He bought 12 animals and spent Ksh 180,000. Form two equations.   "
+},
+{
+  "id": "forming-linear-equations-in-two-unknowns-5-1",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-linear-equations-in-two-unknowns-5-1",
+  "type": "Exercise",
+  "number": "2.2.2.3.1",
+  "title": "",
+  "body": "  A shopkeeper sells pens at Ksh 30 and pencils at Ksh 20. In one day, she sells 40 items and earns Ksh 1,100. Form two linear equations to represent this situation.   "
+},
+{
+  "id": "forming-linear-equations-in-two-unknowns-5-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-linear-equations-in-two-unknowns-5-2",
+  "type": "Exercise",
+  "number": "2.2.2.3.2",
+  "title": "",
+  "body": "  A boda boda rider transports passengers and parcels. A passenger trip earns Ksh 100 while a parcel delivery earns Ksh 150. In a day, the rider completes 20 trips and earns Ksh 2,500. Form two equations.   "
+},
+{
+  "id": "forming-linear-equations-in-two-unknowns-5-3",
+  "level": "2",
+  "url": "sec-Linear-equations.html#forming-linear-equations-in-two-unknowns-5-3",
+  "type": "Exercise",
+  "number": "2.2.2.3.3",
+  "title": "",
+  "body": "  A man has some 100-shilling and 200-shilling notes adding up to Ksh 2,400. Form two equations to represent this.   "
+},
+{
+  "id": "subsec-solving-linear-equations-by-elimination-method-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#subsec-solving-linear-equations-by-elimination-method-2",
+  "type": "Example",
+  "number": "2.2.4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "examples-solving-linear-equations-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#examples-solving-linear-equations-2",
+  "type": "Example",
+  "number": "2.2.5",
+  "title": "Solving equations using substitution.",
+  "body": " Solving equations using substitution   Solve the following equations using substitution:      Step 1: The first equation is already in terms of : .  Step 2: Substitute into the second equation:     →  Step 3: Substitute back into :   Final Answer: ,   "
+},
+{
+  "id": "examples-solving-linear-equations-3",
+  "level": "2",
+  "url": "sec-Linear-equations.html#examples-solving-linear-equations-3",
+  "type": "Example",
+  "number": "2.2.6",
+  "title": "Substitution from a rearranged equation.",
+  "body": " Substitution from a rearranged equation   Solve: and using substitution.    Step 1: Rearrange the first equation to make the subject:   Step 2: Substitute into the second equation:     →  Step 3: Substitute into :   Final Answer: ,   "
+},
+{
+  "id": "activity-solving-linear-equations-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#activity-solving-linear-equations-2",
+  "type": "Activity",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  Solve: and   Solve: and    "
+},
+{
+  "id": "solving-linear-equations-by-graphical-method-2",
+  "level": "2",
+  "url": "sec-Linear-equations.html#solving-linear-equations-by-graphical-method-2",
+  "type": "Example",
+  "number": "2.2.7",
+  "title": "",
+  "body": "     "
 },
 {
   "id": "sec-section-circles",
