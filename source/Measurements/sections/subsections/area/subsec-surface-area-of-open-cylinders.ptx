@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-surface-area-of-open-cylinders">
     <title>Surface area of open cylinders</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous section, you calculated the surface area of a closed cylinder. How did you do it?
     </p>
@@ -25,7 +23,7 @@
             <m>\textbf{Work in groups}</m>
         </p>
         <p>
-            <m>\textbf{What you require:}</m> A cylindrical containerwithout a lid, a pair of scissores and a piece 
+            <term>What you require:</term> A cylindrical containerwithout a lid, a pair of scissores and a piece 
             of paper.
         </p>
         <p>
@@ -75,8 +73,12 @@
             </ol>
         </p>
     </activity>
+
+    
+
+
     <p>
-        <m>{\color{blue} \textbf{Essential Concepts:}}</m>
+        <m>{\color{black} \textbf{Key Takeaway:}}</m>
     </p>
     <p>
         An open cylinder has a curved surface and one circular face.
@@ -91,8 +93,7 @@
         </md>
     </p>
     <p>
-        <m>\textbf{Note:}</m> For an open cylinder an exeminer will give guidlines. But most of the cylinders 
-        are considerd closed.
+        <m>\textbf{Note:}</m> For an open cylinder an exeminer will give guidlines. 
     </p>
     <example>
         <statement>
@@ -103,7 +104,7 @@
         </statement>
         <solution>
             <p>
-                You are given the height and diameter of the container to be <m>h=12\,cm \, \textbf{and} \, d=2\,cm</m>
+                You are given the height and diameter of the container to be <m>h=12\,cm \, \text{and} \, d=2\,cm</m>
             </p>
             <p>
                 You first identify the radius of the container that is,
@@ -209,9 +210,10 @@
                 The height of the jar <m>={\color{blue} 10 \,cm  }</m>
             </p>
         </solution>
+        
     </example>
     <p>
-        <m>{\color{blue} \textbf{Follow-up activity:}}</m>
+        <m>{\color{black} \textbf{Extended Activity:}}</m>
     </p>
     <sidebyside>
         <p>
@@ -246,6 +248,7 @@
         </latex-image>
         </image>
     </sidebyside>
+   
   
 
 

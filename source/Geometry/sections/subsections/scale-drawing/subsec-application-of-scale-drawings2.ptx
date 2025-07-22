@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-application-of-scale-drawings2">
     <title>Application of scale drawings(2)</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous section, you applied scale drawing to determine actual measurements 
         when given scale measurements. Review again if you can still attempt any question of such.
@@ -16,7 +14,7 @@
             <m>\textbf{Work in pairs.}</m>
         </p>
         <p>
-            <m>\textbf{What you require:}</m> A ruler and a piece of string.
+            <term>What you need:</term> A ruler and a piece of string.
         </p>
         <p>
             <ol>
@@ -171,7 +169,7 @@
     <example>
         <statement>
             <p>
-               Kemmy drew a blueprint of his living room using a scale of <m>1:50</m>. If the actual length of the living room is <m>6 \,meters</m>, 
+               Kemmy drew a blueprint of her living room using a scale of <m>1:50</m>. If the actual length of the living room is <m>6 \,\text{meters}</m>, 
                what is the length of the living room on the blueprint?
             </p>
         </statement>
@@ -188,7 +186,7 @@
                     </li>
                     <li>
                         <p>
-                            Actual length of the garage: <m>6 \,meters.</m>.
+                            Actual length of the garage: <m>6 \,\text{meters}.</m>.
                         </p>
                     </li>
                     <li>
@@ -199,7 +197,7 @@
                 </ul>
             </p>
             <p>
-                Since <m>1\, \text{ meter} = 100 \, \text{centimeters}</m>, we convert <m>6\, meters</m> to centimeters:
+                Since <m>1\, \text{ meter} = 100 \, \text{centimeters}</m>, we convert <m>6\, \text{ meter}</m> to centimeters:
             </p>
             <p>
                 <md>
@@ -225,17 +223,77 @@
 
         </solution>
     </example>
+    
+
+
     <p>
-        <m>\textbf{Digital activities}</m>
+      <m>\textbf{Technology Integration: Exploring Scale Drawing}</m>
+   </p>
+    <p>
+        To deepen your understanding of scale drawing and its practical applications, explore the following digital resources:
+    </p>  
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Math is Fun – Scale Drawings
+                </p>
+                <p>
+                    This resource offers clear explanations and visuals for understanding scale drawing, including examples and practice problems.
+                </p>
+                <p>
+                    <url href="https://www.mathsisfun.com/geometry/scale-drawing.html" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    CK-12 – Scale Drawings Interactive Lesson
+                </p>
+                <p>
+                    An interactive lesson that guides learners through the basics of scale drawings with dynamic visuals and self-check quizzes.
+                </p>
+                <p>
+                    <url href="https://www.ck12.org/geometry/scale-drawings/lesson/Scale-Drawings-Basics-MS-Geometry/" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    YouTube Video – Introduction to Scale Drawings
+                </p>
+                <p>
+                    A visual and engaging video lesson explaining how to interpret and create scale drawings.
+                </p>
+                <p>
+                    <url href="https://youtu.be/MUPz6pG9u-4" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    YouTube Video – Scale Drawing by THE KING'S SCHOOL - NAIROBI
+                </p>
+                <p>
+                    A comprehensive tutorial tailored for Standard 8 students, focusing on the concepts and applications of scale drawing.
+                </p>
+                <p>
+                    <url href="https://youtu.be/GZN7xsqeFLw" />
+                </p>
+            </li>
+    </ol>
     </p>
-    <p>
-        Follow the link to explore mor ab out scale drawing. <m>\textbf{👉🏻👉🏻}</m> <url href="https://youtu.be/GZN7xsqeFLw" />
-    </p>
+
+
+
+
+
+
+
+
+
 
 
 
     <p>
-        <m>{\color{blue} \textbf{The key importance of studying Scale drawing}}</m>.
+        <m>{\color{black} \textbf{The key importance of studying Scale drawing}}</m>.
     </p>
     <p>
         <ul>
