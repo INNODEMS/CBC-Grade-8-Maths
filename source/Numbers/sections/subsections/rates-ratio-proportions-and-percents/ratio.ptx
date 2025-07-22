@@ -92,26 +92,9 @@
 
         <p>
             <md>
-<<<<<<<<< Temporary merge branch 1
                 <mrow> \amp \textbf{Learning Point} </mrow>
-=========
                 <mrow> \amp \text{Learning Point} </mrow>
->>>>>>>>> Temporary merge branch 2
-            </md>
-        </p>
-
-        <p>
-            <md>
-<<<<<<<<< Temporary merge branch 1
                 <mrow> \amp \text{Fraction} \, (\frac{a}{b})\, \text{can be expressed as a ratio} \, (a:b), \, i.e </mrow>
-=========
-                <mrow> \amp \text{Fraction} \, (\frac{a}{b})\, \text{can be expressed as a ratio} \, (a:b), \, ie </mrow>
->>>>>>>>> Temporary merge branch 2
-            </md>
-        </p>
-
-        <p>
-            <md>
                 <mrow> \amp \frac{3}{8} = 3:8 </mrow>
             </md>
         </p>
@@ -368,37 +351,22 @@
 
         <p>
             <md>
-<<<<<<<<< Temporary merge branch 1
                 <mrow> \amp \textbf{Learning Point} </mrow>
-=========
-                <mrow> \amp \text{Learning Point} </mrow>
->>>>>>>>> Temporary merge branch 2
             </md>
         </p>
 
         <p>
-<<<<<<<<< Temporary merge branch 1
             <m> \text{To compare rates,}</m>
             <ul>
                 <li>
                     <p>
                         Express each ratio as a fraction.
-=========
-            <m>\text{To compare rates,}</m>
-            <ul>
-                <li>
-                    <p>
-                        <m>\text{Express each ratio as a fraction.}</m>
->>>>>>>>> Temporary merge branch 2
                     </p>
                 </li>
                 <li>
                     <p>
-<<<<<<<<< Temporary merge branch 1
                         Write the equivalenta form for each fraction such that the fraction have the same denominator.
-=========
                         <m>\text{Write the equivalenta form for each fraction such that the fraction have the same denominator.}</m>
->>>>>>>>> Temporary merge branch 2
                     </p>
                 </li>
             </ul>
@@ -641,18 +609,14 @@
 
         <p>
             <md>
-<<<<<<<<< Temporary merge branch 1
                 <mrow> \amp {\textbf{Key Takeaway}} </mrow>
-=========
                 <mrow> \amp \text{Learning Point} </mrow>
->>>>>>>>> Temporary merge branch 2
             </md>
         </p>
         <p>
             <ul>
                 <li>
                     <p>
-<<<<<<<<< Temporary merge branch 1
                         <m>{\text{If a quantity is divided in the ratio} [a:b], \text{the resulting fractions of the quantity are:}}</m>
                         <m>{\text{for}}</m> <m>{a;}</m>
                         <md>
@@ -661,7 +625,7 @@
                         <m>{\text{and for}}</m> <m>{b;}</m>
                         <md>
                             <mrow> \amp {\frac{b}{(a+b)}}</mrow>
-=========
+                        </md>
                         <m>\text{If a quantity is divided in the ratio} [a:b], \text{the resulting fractions of the quantity are:}</m>
                         <m>{\text{for}}</m> <m>{a;}</m>
                         <md>
@@ -670,14 +634,12 @@
                         <m>{\text{and for}}</m> <m>{b;}</m>
                         <md>
                             <mrow> \amp \frac{b}{(a+b)}</mrow>
->>>>>>>>> Temporary merge branch 2
                         </md>
                     </p>
                 </li>
 
                 <li>
                     <p>
-<<<<<<<<< Temporary merge branch 1
                         <m>{\text{For the ratio} [a:b:c], \text{the resulting fractions of quantities are:}}</m>
                     </p>
                     <p>
@@ -696,7 +658,7 @@
                         <m>{\text{for}}</m> <m>{c;}</m>
                         <md>
                             <mrow> \amp {\frac{c}{(a+b+c)}} </mrow>
-=========
+                        </md>
                         <m>\text{For the ratio} [a:b:c], \text{the resulting fractions of quantities are:}</m>
                     </p>
                     <p>
@@ -715,7 +677,6 @@
                         <m>\text{for}</m> <m>c;</m>
                         <md>
                             <mrow> \amp \frac{c}{(a+b+c)} </mrow>
->>>>>>>>> Temporary merge branch 2
                         </md>
                     </p>
                 </li>
@@ -907,7 +868,6 @@
 
         <p>
             <md>
-<<<<<<<<< Temporary merge branch 1
                 <mrow> \amp {\text{Key Takeaway}} </mrow>
             </md>
         </p>
@@ -916,7 +876,8 @@
             To increase or decrease a quantity in a given ratio, 
             the quantity is multiplied by the corresponding fraction to the ratio.
         </p>
-=========
+        <p>
+            <md>
                 <mrow> \amp \text{Learning Point} </mrow>
             </md>
         </p>
@@ -927,7 +888,6 @@
                 the quantity is multiplied by the corresponding fraction to the ratio.}}</m></cell>
             </row>
         </tabular>
->>>>>>>>> Temporary merge branch 2
 
         <example>
             <statement>
