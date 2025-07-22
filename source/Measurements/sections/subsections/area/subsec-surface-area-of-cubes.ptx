@@ -2,21 +2,104 @@
     <title>Surface area of cubes</title>
 
 
-    <introduction>
+    
+        
+    
+    
+
+    <subsubsection xml:id="subsubsec-surface-area-of-cubes-in-real-life-situations">
+        <title>Surface area of cubes in real life situations.</title>
+        <activity>
+            <introduction>
+                <p>
+                    <m>\textbf{Work in groups}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <term>What you require:</term> Use a model of a cube in this activity.
+                    </p>
+                    <p>
+                        Identify the number of faces in the figure below.
+                    </p>
+
+                    <image width="40%" >
+                    <latex-image label="cube3"> 
+                        \begin{tikzpicture}[blue]
+                            
+                            % Define cube vertices
+                            \coordinate (A) at (0,0);
+                            \coordinate (B) at (2,0);
+                            \coordinate (C) at (2,2);
+                            \coordinate (D) at (0,2);
+
+                            \coordinate (E) at (0.8,0.8);
+                            \coordinate (F) at (2.8,0.8);
+                            \coordinate (G) at (2.8,2.8);
+                            \coordinate (H) at (0.8,2.8);
+
+                            % Draw the front face
+                            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                            % Draw the back face
+                            \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+
+                            % Connect front and back faces
+                            \draw[thick] (A) -- (E);
+                            \draw[thick] (B) -- (F);
+                            \draw[thick] (C) -- (G);
+                            \draw[thick] (D) -- (H);
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                       Measure the length of each edge of the faces.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Calculate the area of each faces.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the sum of area of all the faces.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Discus and share the findings with other groups.
+                    </p>
+                </statement>
+            </task>
+        
+                
+            
+        </activity>
+        <p>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
+        </p>
         <p>
             A <m>\textbf{cube }</m>has six congruent square faces. 
             The total area of the faces is the surface area of the cube.
        </p>
+        
         <p>
-        The surface area is measured in square units including <m>cm^2 </m> and <m>m^2</m>.
-        </p>
-        <p>
-            The
-            surface area of a 3D shape
-            is the total area of all the
-            faces
-            of the shape. For example, the surface area of a cube is the total area of all six square faces. This is <m>
-            6 \times side^2</m>. The six faces of a cube is as shown are as shown
+            The surface area of a 3D shape is the total area of all its faces. For example, the surface area of a cube is the combined area of its six square faces. This can be calculated using the formula: 
+            <m>
+            6 \times side^2</m>. The six faces of a cube are shown below. 
         </p>
         <sidebyside>
             <image width="40%">
@@ -76,7 +159,7 @@
             <m>\textbf{To work out the surface area of a cube:}</m>
         </p>
         <p>
-            <ol marker="a">
+            <ol marker="a)">
                 <li>
                     <p>
                     Square
@@ -90,110 +173,7 @@
                 </li>
             </ol>
         </p>
-    </introduction>
-    
-
-    <subsubsection xml:id="subsubsec-surface-area-of-cubes-in-real-life-situations">
-        <title>Surface area of cubes in real life situations.</title>
-        <activity>
-            <introduction>
-                <p>
-                    <alert>Work in groups</alert>
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        <m>\textbf{what you need;}</m> Use a model of a cube in this activity.
-                    </p>
-                    <p>
-                        Identify the number of faces in the figure below.
-                    </p>
-
-                    <image width="40%" >
-                    <latex-image label="cube3"> 
-                        \begin{tikzpicture}
-                            
-                            % Define cube vertices
-                            \coordinate (A) at (0,0);
-                            \coordinate (B) at (2,0);
-                            \coordinate (C) at (2,2);
-                            \coordinate (D) at (0,2);
-
-                            \coordinate (E) at (0.8,0.8);
-                            \coordinate (F) at (2.8,0.8);
-                            \coordinate (G) at (2.8,2.8);
-                            \coordinate (H) at (0.8,2.8);
-
-                            % Draw the front face
-                            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
-
-                            % Draw the back face
-                            \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
-
-                            % Connect front and back faces
-                            \draw[thick] (A) -- (E);
-                            \draw[thick] (B) -- (F);
-                            \draw[thick] (C) -- (G);
-                            \draw[thick] (D) -- (H);
-                        \end{tikzpicture}
-                    </latex-image>
-                        
-                    </image>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                       Measure the length of each edge of the faces 
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Calculate the area of each faces.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Find the sum of area of all the faces.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Discus and share the findings with other groups.
-                    </p>
-                </statement>
-            </task>
         
-                
-            
-        </activity>
-        <p>
-            <m>{\color{blue} \textbf{Essential Concept:}}</m>
-        </p>
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        The surface area of a solid is the sum of area of all 
-                        faces. For a cube of length <m>l</m> units, the area of each face is <m>l \times l</m> 
-                        square units <m>= l^2</m> square units.
-                    </p>
-                    <p>
-                        <md>
-                            <mrow> \text{The sum of areas of six faces}= \amp (6 \times l^2)  \, \text{square units.}</mrow>
-                            <mrow>= \amp  6\, l^2 \, \text{square units}.</mrow>
-                        </md>
-                    </p>
-                </li>
-            </ul>
-        </p>
         <example>
             <statement>
                 <p>
@@ -265,7 +245,7 @@
                     </p>
                     <image width="40%">
                     <latex-image  label="question2">
-                        \begin{tikzpicture}
+                        \begin{tikzpicture}[blue]
                             % Define colors
                             \definecolor{lightblue}{RGB}{173, 216, 230}
 
@@ -324,7 +304,7 @@
                     Area of the voting box.
                 </p>
                 <p>
-                    <m>\text{Area}= 6 l^2</m>
+                    <m>\text{Area}= 6 \,l^2</m>
                 </p>
                 <p>
                     <md>
@@ -361,12 +341,12 @@
                     Being that the cube is oppened at the top, it implies that the faces for the cube is five.
                 </p>
                 <p>
-                    Therefore, the area <m>= 5 l^2</m>.
+                    Therefore, the area <m>= 5 \,l^2</m>.
                 </p>
             </hint>
             <solution>
                 <p>
-                    <m>\textbf{Area}= 5 l^2</m>
+                    <m>\textbf{Area}= 5 \,l^2</m>
                 </p>
                 <p>
                     <md>

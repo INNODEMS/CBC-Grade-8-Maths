@@ -4,7 +4,91 @@
 
     <subsubsection xml:id="subsubsec-area-of-a-sector-of-a-circle">
         <title>Area of a sector of a circle(1)</title>
+        <activity>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <term>What you need:</term>
+            </p>
+            <p>
+                A graph paper and a razorblade or a parir of scissor✂️
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Draw a circle of radius <m>7 \, cm</m> on a graph paper.
+                        </p>
+                    </li>
+                    <li>Cut out the circle along its boundary.</li>
+                    <li>Mark the centre of the circle.</li>
+                    <li>
+                        <p>
+                            Measure an angle of <m>30^\circ</m> at the centre and cut 
+                            out as shown.
+                        </p>
+                        <image>
+                        <latex-image label="sector-extracted">
+                            \begin{tikzpicture}
+                                % Draw the first shape (Sector inside the larger circle)
+                                \draw[thick] (0,0) circle (2);
+                                \fill[blue!20] (0,0) -- (30:2) arc (30:150:2) -- cycle;
+                                \draw[thick] (0,0) -- (30:2);
+                                \draw[thick] (0,0) -- (150:2);
+                                \draw[thick] (30:2) ;
+                                \node at (0,0.5) {$30^\circ$};
+
+                                % Draw a dot at the center (0,0)
+                                \filldraw [black] (0,0) circle (2pt); % 2pt size black dot
+                                
+                                
+                                % Arrow pointing to the second shape
+                                \draw[-&gt;, very thick] (2.5,0) -- (4.5,0);
+                                
+                                % Draw the second shape (sector facing right, matching the larger one)
+                                \begin{scope}[shift={(6,0)}, rotate=360]
+                                    \fill[blue!20] (0,0) -- (30:1.5) arc (30:150:1.5) -- cycle;
+                                    \draw[thick] (0,0) -- (30:1.5);
+                                    \draw[thick] (0,0) -- (150:1.5);
+                                    \draw[thick] (30:1.5) arc (30:150:1.5);
+                                    \node at (0,0.5) {$30^\circ$};
+                                    % Draw a dot at the center (0,0)
+                                    \filldraw [black] (0,0) circle (1pt); % 2pt size black dot
+                                    
+                                \end{scope}
+                            \end{tikzpicture}
+                        </latex-image>
+
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Estimate the area by counting the number of squares enclosed by the arc and the 
+                            two radii of the circle.
+                        </p>
+                    </li>
+                    <li>Express the angle of the sector (<m>30^\circ</m>) 
+                    as a fraction of the angle at the centre of the circle (<m>360^\circ</m>).</li>
+                    <li>
+                        <p>
+                            Multiply the fraction obtained in (6) by the area of the circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share the result with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
+        </activity>
+        
         <p>
+            <m>{\color{black}\textbf{Key Takeaway:}}</m>
+        </p>
+       <p>
             A <m>\textbf{sector}</m> is a region bounded by two radii and an arc. A <m>\textbf{minor}</m> sector is one 
             whose area is less than half the area of the circle while <m>\textbf{major}</m> sector
             is one whose area is greater than a half of the area of the circle, as shown below:
@@ -23,9 +107,12 @@
                 \path (0,0) coordinate (O);
                 \path (\startAngle:2) coordinate (A);
                 \path (\endAngle:2) coordinate (B);
+
+                % Draw a dot at the center (0,0)
+                \filldraw [black] (0,0) circle (1pt); % 2pt size black dot
                 
                 % Shade the minor sector
-                \fill[gray!50] (O) -- (A) arc (\startAngle:\endAngle:2) -- cycle;
+                \fill[cyan!50] (O) -- (A) arc (\startAngle:\endAngle:2) -- cycle;
                 
                 % Draw the radius lines
                 \draw[thick] (O) -- (A);
@@ -46,7 +133,7 @@
         </image>
 
         <p>
-            <m>{\color{blue}\textit{The area of a Sector}}</m>
+            <m>{\color{black}\textbf{The area of a Sector}}</m>
         </p>
         <p>
             Consider the area of the shadedregion below;
@@ -99,111 +186,29 @@
             </ul>
         </p>
         <p>
-            <m>\textbf{In general, the area of a sector whose arc substends an angle at the centntre of the circle
-            is given by; A} =\frac{ \Theta}{360}\times \pi \times r^2</m>.
+            <m>\textbf{In general;}</m> the area of a sector whose arc substends an angle at the centntre of the circle
+            is given by; <me>A =\frac{ \theta}{360}\times \pi \times r^2</me>
         </p>
-        <activity>
-            <p>
-                <m>\textbf{Work in groups}</m>
-            </p>
-            <p>
-                <m>\textbf{What you need:}</m>
-            </p>
-            <p>
-                A graph paper and a razorblade or a parir of scissor✂️
-            </p>
-            <p>
-                <ol marker="(i)">
-                    <li>
-                        <p>
-                            Draw a circle of radius <m>7 \, cm</m> on a graph paper.
-                        </p>
-                    </li>
-                    <li>Cut out the circle along its boundary.</li>
-                    <li>Mark the centre of the circle.</li>
-                    <li>
-                        <p>
-                            Measure an angle of <m>30^\circ</m> at the centre and cut 
-                            out as shown.
-                        </p>
-                        <image>
-                        <latex-image label="sector-extracted">
-                            \begin{tikzpicture}
-                                % Draw the first shape (Sector inside the larger circle)
-                                \draw[thick] (0,0) circle (2);
-                                \fill[blue!20] (0,0) -- (30:2) arc (30:150:2) -- cycle;
-                                \draw[thick] (0,0) -- (30:2);
-                                \draw[thick] (0,0) -- (150:2);
-                                \draw[thick] (30:2) ;
-                                \node at (0,0.5) {$30^\circ$};
-                                
-                                
-                                % Arrow pointing to the second shape
-                                \draw[-&gt;, very thick] (2.5,0) -- (4.5,0);
-                                
-                                % Draw the second shape (sector facing right, matching the larger one)
-                                \begin{scope}[shift={(6,0)}, rotate=360]
-                                    \fill[blue!20] (0,0) -- (30:1.5) arc (30:150:1.5) -- cycle;
-                                    \draw[thick] (0,0) -- (30:1.5);
-                                    \draw[thick] (0,0) -- (150:1.5);
-                                    \draw[thick] (30:1.5) arc (30:150:1.5);
-                                    \node at (0,0.5) {$30^\circ$};
-                                    
-                                \end{scope}
-                            \end{tikzpicture}
-                        </latex-image>
 
-                        </image>
-                    </li>
-                    <li>
-                        <p>
-                            Estimate the area by counting the number of squares enclosed by the arc and the 
-                            two radii of the circle.
-                        </p>
-                    </li>
-                    <li>Express the angle of the sector (<m>30^\circ</m>) 
-                    as a fraction of the angle at the centre of the circle (<m>360^\circ</m>).</li>
-                    <li>
-                        <p>
-                            Multiply the fraction obtained in (6) by the area of the circle.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Discuss and share the result with other groups.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-            
-        </activity>
-        
-        <p>
-            <m>{\color{blue}\textbf{Essential Concept:}}</m>
-        </p>
-        <p>
-            A sector is a region enclosed by an arc and the twoo radii. The area of a sector which substends an angle <m>\Theta^\circ</m> 
-            at the centre of the circle radius <m>(r)</m> is <m>\frac{\Theta}{360} \times \pi r^2</m>
-        </p>
         <example>
             <statement>
                 <p>
                     Find the area of a sector of a circle of radius <m>7\, cm</m> 
                     if the angle substended at the centre is <m>120^\circ</m>. Write the answer 
-                    close to <m>\textbf{2 decimal places}</m>.
+                    to <m>\textbf{2 decimal places}</m>.
                 </p>
             </statement>
             <hint>
                 <p>
-                    Scetch the sector and use the formula below:<me>A=\frac{\Theta}{360} \times \pi r^2</me>
+                    Scetch the sector and use the formula below:<me>A=\frac{\theta}{360} \times \pi r^2</me>
                 </p>
             </hint>
             <solution>
                 <p>
-                    <m>A=\frac{\Theta}{360} \times \pi r^2 </m>
+                    <m>A=\frac{\theta}{360} \times \pi r^2 </m>
                 </p>
                 <p>
-                    <m>r=7 \,cm</m> and <m>\Theta = 120^\circ</m>
+                    <m>r=7 \,cm</m> and <m>\theta = 120^\circ</m>
                 </p>
                 <p>
                     Therefore;
@@ -276,7 +281,7 @@
             </statement>
             <solution>
                 <p>
-                   <m>\textbf{(a)}</m>  <m>Area=\frac{\Theta^\circ}{360^\circ} \pi r^2</m>
+                   <m>\textbf{(a)}</m>  <m>Area=\frac{\theta}{360^\circ} \pi r^2</m>
                 </p>
                 <p>
                     <md>
@@ -290,7 +295,7 @@
                 </p>
 
                 <p>
-                   <m>\textbf{(b)}</m>  <m>Area=\frac{\Theta^\circ}{360^\circ} \pi r^2</m>
+                   <m>\textbf{(b)}</m>  <m>Area=\frac{\theta}{360^\circ} \pi r^2</m>
                 </p>
                 <p>
                     <md>
@@ -311,30 +316,42 @@
     <subsubsection xml:id="subsubsec-area-of-a-sector-of-a-circle2">
         <title>Area of a sector of a circle(2)</title>
         <p>
-           In the previous sections, you learnt about the sector of a circle. 
+           In the previous sections, you learned about sectors of a circle.  
         </p>
         <p>
             <m>\textbf{(a)}</m> Draw a circle.
         </p>
         <p>
-            <m>\textbf{(a)}</m> On the circle, draw a semi-circle and quarter-circle
+            <m>\textbf{(a)}</m> On the same circle, show a semicircle and a quarter-circle. 
         </p>
         <p>
-            <m>\textbf{In this section, you will learn how to work out the area of a semi-circle and a quater-circle.}</m>
+            <m>\textbf{In this section, you will learn how to calculate the area of a semicircle and a quarter-circle.}</m>
         </p>
         <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
             <p>
-                <m>\textbf{What you requre:}</m> A pair of compusses, a ruler, pieces of paper, a cutting tool and a protactor.
+                <term>What you require:</term> A pair of compusses, a ruler, pieces of paper, a cutting tool and a protactor.
             </p>
             <p>
                 <ol >
                     <li>
                         <p>
-                            <m>\textbf{a}</m> Draw a circle of radius of <m>7\,cm</m> on a piece of paper and cut it out.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        Draw a circle of radius of <m>7\,cm</m> on a piece of paper and cut it out.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using <m>\pi = \frac{22}{7}</m>, calculate the area of the circular cutout.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{b}</m> Using <m>\pi = \frac{22}{7}</m>, calculate the area of the circular cutout.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
@@ -343,15 +360,24 @@
                     </li>
                     <li>
                         <p>
-                            <m>\textbf{a}</m> Measure the angle at the centre of one semicircles.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        Measure the angle at the centre of one semicircles.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Express the angle as a fraction of <m>360^\circ</m>.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{b}</m> Express the angle as a fraction of <m>360^\circ</m>.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
-                            Multiply the fraction you got in step 3<m>\textbf{b}</m> by the area of the circle. What do you notice>
+                            Multiply the fraction you got in step 3 <m>\text{(b)}</m> by the area of the circle. What do you notice>
                         </p>
                     </li>
                     <li>
@@ -364,22 +390,27 @@
                             Discuss how to calculate the area of both semi-circle and  the quater-circle.
                         </p>
                     </li>
+                    <li>
+                        <p>
+                            Discuss your work with other groups in your class and compare your findings. 
+                        </p>
+                    </li>
                 </ol>
             </p>
         </activity>
         <p>
-            <m>{\color{red}}\textbf{Discover that;}</m>
+            <m>{\color{red}}\textbf{Key Takeaway}</m>
         </p>
         <p>
             <ul>
                 <li>
                     <p>
-                        The area of a semi-circle is given by <me>\frac{180}{360} \times \pi r^2= \frac{1}{2} \pi r^2</me>.
+                        The area of a semi-circle is given by: <me>\frac{180}{360} \times \pi r^2= \frac{1}{2} \pi r^2</me>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Area of a quater-circle is given by <me>\frac{90}{360} \times \pi r^2= \frac{1}{4} \pi r^2</me>.
+                        Area of a quater-circle is given by: <me>\frac{90}{360} \times \pi r^2= \frac{1}{4} \pi r^2</me>.
                     </p>
                 </li>
             </ul>
@@ -391,12 +422,12 @@
                 </p>
                 <image width="40%">
                 <latex-image label="semi">
-                    \begin{tikzpicture}
+                    \begin{tikzpicture}[blue]
                         % Draw the semicircle
                         \draw [very thick,fill=pink!20] (4,0) arc [start angle=0, end angle=180, radius=4cm] -- (0,0) -- cycle;
 
                         % Draw the right angle marker
-                        \draw (0,0) -- (0.5,0) -- (0.5,0.5) -- (0,0.5) -- cycle;
+                        \draw[very thick] (0,0) -- (0.5,0) -- (0.5,0.5) -- (0,0.5) -- cycle;
 
                         % Draw the radius and label it
                         \draw [very thick,dashed] (0,0) -- (0,4);
@@ -425,7 +456,7 @@
         <example>
             <statement>
                 <p>
-                    Calculate the area of the figure below.(Use <m>\pi =3.142</m>)
+                    Calculate the area of the figure below. (Use <m>\pi =3.142</m>)
                 </p>
                 <image width="40%">
                 <latex-image label="quater">
@@ -433,10 +464,10 @@
                         % Draw the quarter-circle sector
                         \fill[cyan, draw=black ,very thick] (0,0) -- (6,0) arc [start angle=0, end angle=90, radius=6cm] -- cycle;
                         % Draw the small right-angle square
-                        \draw[white, draw=black] (0,0) rectangle (1,1);
+                        \draw[very thick,white, draw=black] (0,0) rectangle (1,1);
                         
                         % Label the radius
-                        \draw (3,-0.3) node[below] {6 cm};
+                        \draw (3,-0.3) node[below] {\Huge{6 cm}};
                     \end{tikzpicture}
                 </latex-image>
                     
