@@ -106,7 +106,8 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp \text{Learning Point} </mrow>
+                <mrow> \textbf{Key Takeway} </mrow>
             </md>
         </p>
 
