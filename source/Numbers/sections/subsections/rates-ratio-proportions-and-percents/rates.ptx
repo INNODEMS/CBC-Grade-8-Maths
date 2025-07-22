@@ -94,13 +94,13 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp \text{Learning Point} </mrow>
             </md>
         </p>
 
         <p>
             <me>
-                {\color{green} \text{A rate is a ratio that compares two quantities measured in different units.}}
+                \text{A rate is a ratio that compares two quantities measured in different units.}
             </me>
             
         </p>
